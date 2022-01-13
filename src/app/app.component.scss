@@ -1,7 +1,5 @@
 .background {
-    background-image: url('../assets/img/background-image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:hsl(88, 70%, 75%);
     position: fixed;
     top: 0;
     left: 0;
@@ -9,26 +7,29 @@
     height: 100%;
 }
 
-.welcome {
+.upperline {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(109, 189, 120);
+    box-shadow: 0 0 20px 6px rgb(128,161,103);
+    height: 80px;
 }
 
-p {
-    padding-top: 100px;
-    color: rgb(78, 184, 78);
-    font-size: 3em;
-    font-style: italic;
-    text-align: center;
+.children-study {
+    font-size: 50px;
+    margin-top: 3px;
+    margin-left: 50px;
+    cursor: default;
 }
 
 .button-row {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     .action-button {
         cursor: pointer;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: bold;
         color: hsl(88, 70%, 30%);
         text-shadow: rgba(255,255,255,.5) 0 -1px 0, rgba(0,0,0,.2) 0 .18em .15em;
@@ -48,7 +49,8 @@ p {
         transition: background .2s ease-in-out;
 
         &:last-child {
-            margin-left: 50px;
+            margin-left: 20px;
+            margin-right: 50px;
         }
         &:hover {
             background-color: hsl(88, 70%, 75%);
@@ -69,4 +71,19 @@ p {
         }
     }
     
+}
+
+.div-websiteadvertising {
+    height: 550px;
+    background-color: rgb(176, 221, 182);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 0 0 20px 6px rgb(134, 160, 114);
+}
+
+.img-playingchildren {
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 100px;
 }
