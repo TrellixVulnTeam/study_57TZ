@@ -1,5 +1,5 @@
 .background {
-    background-color:hsl(88, 70%, 75%);
+    background-color:hsl(88, 85%, 80%);
     position: fixed;
     top: 0;
     left: 0;
@@ -10,7 +10,7 @@
 .upperline {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(109, 189, 120);
+    background-image: url(../assets/img/background-image-1.jpg);
     box-shadow: 0 0 20px 6px rgb(128,161,103);
     height: 80px;
 }
@@ -75,7 +75,7 @@
 
 .div-websiteadvertising {
     height: 550px;
-    background-color: rgb(176, 221, 182);
+    background-image: url(../assets/img/background-image-2.JPG);
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -85,5 +85,37 @@
 .img-playingchildren {
     width: 500px;
     margin-top: 80px;
-    margin-left: 100px;
+    margin-left: 250px;
 }
+
+.div-ico {
+    display: flex;
+    align-items: center;
+    height: 550px;
+    margin-right: 400px;
+}
+
+.ul-ico {
+    list-style: none;
+    text-align: left;
+}
+
+li {
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+.li-ico-1 {
+    list-style-image: url(../assets/img/ico_math.png);
+    margin-bottom: 20px;
+}
+
+.li-ico-2 {
+    list-style-image: url(../assets/img/ico_read.png);
+    margin-bottom: 20px;
+}
+
+.li-ico-3 {
+    list-style-image: url(../assets/img/ico_programm.png);
+}
+
