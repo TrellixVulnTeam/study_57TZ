@@ -40,11 +40,11 @@
         border-radius: 8px;
         border: 0;
         outline: none;
-        background: #a2cf70 radial-gradient(rgba(255,255,255,0), rgba(255,255,255,.5));
+        background: #b2f169 radial-gradient(rgba(255,255,255,0), rgba(168, 166, 166, 0.5));
         box-shadow:
         inset rgba(255,255,255,.6) 0 .3em .3em,
         inset rgba(0,0,0,.2) 0 -.1em .3em,
-        rgb(128,161,103) 0 7px 1px,
+        rgb(169, 204, 143) 0 7px 1px,
         rgba(0,0,0,.2) 0 .5em 5px;
         transition: background .2s ease-in-out;
 
@@ -53,11 +53,11 @@
             margin-right: 50px;
         }
         &:hover {
-            background-color: hsl(88, 70%, 75%);
+            background-color: hsl(119, 73%, 80%);
         }
         &:active {
             top: .2em;
-            color: rgba(254,255,255,.9);
+            color: rgba(195, 241, 198, 0.9);
             text-shadow: rgba(0,0,0,.2) 0 1px 2px;
             box-shadow:
             inset rgba(255,255,255,.6) 0 .3em .3em,
@@ -74,12 +74,16 @@
 }
 
 .div-websiteadvertising {
-    height: 550px;
+    height: 600px;
     background-image: url(../assets/img/background-image-2.JPG);
-    display: flex;
-    justify-content: space-between;
     margin-top: 20px;
     box-shadow: 0 0 20px 6px rgb(134, 160, 114);
+}
+
+.div-spacebetween {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .img-playingchildren {
@@ -92,30 +96,87 @@
     display: flex;
     align-items: center;
     height: 550px;
-    margin-right: 400px;
+    margin-right: 250px;
 }
 
 .ul-ico {
-    list-style: none;
-    text-align: left;
+    list-style-type: none;
+    line-height: 80px;
 }
 
-li {
-    font-size: 1.2em;
-    line-height: 1.2;
+.li-ico {
+    background-image: url(../assets/img/ico-flower.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 100px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 1px #8c968f;
+    color: hsl(88, 94%, 13%);
+    cursor: default;
 }
 
-.li-ico-1 {
-    list-style-image: url(../assets/img/ico_math.png);
-    margin-bottom: 20px;
+div.registr {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.li-ico-2 {
-    list-style-image: url(../assets/img/ico_read.png);
-    margin-bottom: 20px;
+p.registr {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 1px #8c968f;
+    color: hsl(88, 94%, 13%);
+    font-size: 30px;
+    cursor: default;
 }
 
-.li-ico-3 {
-    list-style-image: url(../assets/img/ico_programm.png);
+div.footer {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../assets/img/background-image-1.jpg);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 6px 20px 0 rgb(128,161,103);
 }
 
+p.footer {
+    margin-left: 20px;
+    cursor: default;
+}
+
+div.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+div.contact-ico {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+img.contact {
+    height: 40px;
+}
+
+div.contact-phone {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+img.contact-phone {
+    height: 30px;
+}
+
+p.contact-phone {
+    padding-left: 5px;
+}
