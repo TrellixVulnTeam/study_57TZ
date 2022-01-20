@@ -96,7 +96,7 @@
     display: flex;
     align-items: center;
     height: 550px;
-    margin-right: 250px;
+    margin-right: 100px;
 }
 
 .ul-ico {
@@ -117,9 +117,8 @@
 }
 
 div.registr {
-    padding-bottom: 100px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
 p.registr {
@@ -127,8 +126,10 @@ p.registr {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 1px 2px 1px #8c968f;
     color: hsl(88, 94%, 13%);
-    font-size: 30px;
+    font-size: 25px;
     cursor: default;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 div.footer {
@@ -153,6 +154,12 @@ div.contact {
     display: flex;
     justify-content: space-between;
     width: 400px;
+    height: 80px;
+    align-items: flex-start;
+}
+
+p.contact {
+    margin-top: 3px;
 }
 
 div.contact-ico {
