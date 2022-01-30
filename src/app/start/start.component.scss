@@ -1,0 +1,189 @@
+.background {
+    background-color:hsl(88, 85%, 80%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.upperline {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../assets/img/background-image-1.jpg);
+    box-shadow: 0 0 20px 6px rgb(128,161,103);
+    height: 80px;
+}
+
+.p-children-study {
+    font-size: 50px;
+    margin-top: 3px;
+    margin-left: 50px;
+    cursor: default;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .action-button {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        color: hsl(88, 70%, 30%);
+        text-shadow: rgba(255,255,255,.5) 0 -1px 0, rgba(0,0,0,.2) 0 .18em .15em;
+        text-decoration: none;
+        user-select: none;
+        margin: .5em;
+        padding: .5em .6em .4em .6em;
+        border-radius: 8px;
+        border: 0;
+        outline: none;
+        background: #b2f169 radial-gradient(rgba(255,255,255,0), rgba(168, 166, 166, 0.5));
+        box-shadow:
+        inset rgba(255,255,255,.6) 0 .3em .3em,
+        inset rgba(0,0,0,.2) 0 -.1em .3em,
+        rgb(169, 204, 143) 0 7px 1px,
+        rgba(0,0,0,.2) 0 .5em 5px;
+        transition: background .2s ease-in-out;
+
+        &:last-child {
+            margin-left: 20px;
+            margin-right: 50px;
+        }
+        &:hover {
+            background-color: hsl(119, 73%, 80%);
+        }
+        &:active {
+            top: .2em;
+            color: rgba(195, 241, 198, 0.9);
+            text-shadow: rgba(0,0,0,.2) 0 1px 2px;
+            box-shadow:
+            inset rgba(255,255,255,.6) 0 .3em .3em,
+            inset rgba(0,0,0,.2) 0 -.1em .3em,
+            rgba(0,0,0,.4) 0 .1em 1px,
+            rgba(0,0,0,.3) 0 .2em 6px;
+        }
+
+        &:active:after {
+            opacity: .6;
+        }
+    }
+    
+}
+
+.div-websiteadvertising {
+    height: 600px;
+    background-image: url(../assets/img/background-image-2.JPG);
+    margin-top: 20px;
+    box-shadow: 0 0 20px 6px rgb(134, 160, 114);
+}
+
+.div-spacebetween {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-playingchildren {
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+.div-ico {
+    display: flex;
+    align-items: center;
+    height: 550px;
+    margin-right: 100px;
+}
+
+.ul-ico {
+    list-style-type: none;
+    line-height: 80px;
+}
+
+.li-ico {
+    background-image: url(../assets/img/ico-flower.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 100px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 1px #8c968f;
+    color: hsl(88, 94%, 13%);
+    cursor: default;
+}
+
+div.registr {
+    display: flex;
+    flex-direction: column;
+}
+
+p.registr {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 1px #8c968f;
+    color: hsl(88, 94%, 13%);
+    font-size: 25px;
+    cursor: default;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.footer {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../assets/img/background-image-1.jpg);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 6px 20px 0 rgb(128,161,103);
+}
+
+p.footer {
+    margin-left: 20px;
+    cursor: default;
+}
+
+div.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 80px;
+    align-items: flex-start;
+}
+
+p.contact {
+    margin-top: 3px;
+}
+
+div.contact-ico {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+img.contact {
+    height: 40px;
+}
+
+div.contact-phone {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+img.contact-phone {
+    height: 30px;
+}
+
+p.contact-phone {
+    padding-left: 5px;
+}

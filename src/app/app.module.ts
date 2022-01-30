@@ -2,7 +2,11 @@ import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
 
+import { APP_BASE_HREF } from "@angular/common";
+
 import { AppComponent } from "./app.component";
+import { LoginComponent } from "./auth/login.component";
+import { StartComponent } from "./start/start.component";
 
 import { RouterModule } from "@angular/router";
 import { AppRoutingModule } from './app-routing.module';
@@ -14,8 +18,9 @@ import { AppRoutingModule } from './app-routing.module';
         RouterModule,
         AppRoutingModule,
     ],
-    declarations: [AppComponent],
-    bootstrap: [AppComponent]
+    declarations: [AppComponent, LoginComponent, StartComponent],
+    bootstrap: [AppComponent],
+    providers: [{provide: APP_BASE_HREF, useValue:'/'}]
 })
 
 export class AppModule { }
