@@ -7,6 +7,7 @@ import { APP_BASE_HREF } from "@angular/common";
 import { AppComponent } from "./app.component";
 import { LoginComponent } from "./auth/login.component";
 import { StartComponent } from "./start/start.component";
+import { RegistrationComponent } from "./auth/registartion.component";
 
 import { RouterModule } from "@angular/router";
 import { AppRoutingModule } from './app-routing.module';
@@ -18,7 +19,12 @@ import { AppRoutingModule } from './app-routing.module';
         RouterModule,
         AppRoutingModule,
     ],
-    declarations: [AppComponent, LoginComponent, StartComponent],
+    declarations: [
+        AppComponent, 
+        LoginComponent, 
+        StartComponent,
+        RegistrationComponent
+    ],
     bootstrap: [AppComponent],
     providers: [{provide: APP_BASE_HREF, useValue:'/'}]
 })

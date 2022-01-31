@@ -1,1 +1,70 @@
-login
+<div class="background">
+    <div class="upperline">
+        <div>
+            <p class="p-children-study">ChildrenStudy</p>
+        </div>
+
+        <div class="registr">
+            <div>
+                <p>В первый раз на сайте?</p>
+            </div>
+
+            <div class="button-row">
+                <nav>
+                    <a routerLink="/registration" routerLinkActive="active" class="action-button">Зарегистрироваться</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="bcg-login">
+        <div class="block-login">
+            <div class="text-enter">
+                <p class="text-enter">Вход на сайт</p>
+            </div>
+
+            <div class="login-auth">
+                <div class="auth-block">
+                    <label class="login-text">E-mail:</label>
+                    <input class="login-input" [(ngModel)]="user.email" #email="ngModel" required email>
+                    <div class="login-error" [hidden]="email.valid || email.untouched">
+                        Некорректный e-mail
+                    </div>
+                </div>
+
+                <div class="auth-block">
+                    <label class="login-text">Пароль:</label>
+                    <input type="password" class="login-input" [(ngModel)]="user.password" #password="ngModel" required>
+                    <div class="login-error" [hidden]="password.valid || password.untouched">
+                        Введите пароль
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <a class="tesuen_z">Войти</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="footer">&copy; ChildrenStudy</p>
+
+        <div class="contact">
+            <p class="contact">Наши контакты:</p>
+            <div class="contact-ico">
+                <div class="contact-phone">
+                    <img class="contact-phone" src="../../assets/img/ico-phone.png" alt>
+                    <p class="contact-phone">+375-44-519-49-46</p>
+                </div>
+
+                <a href="https://instagram.com/guscharina?utm_medium=copy_link" rel="nofollow" target="_blank">
+                    <picture>
+                        <source type="image/webp" srcset="../../assets/img/ico-inst.png">
+                        <img class="contact" src="../../assets/img/ico-inst.png" alt>
+                    </picture>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
