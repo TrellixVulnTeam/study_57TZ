@@ -6,4 +6,6 @@ import { Component } from "@angular/core";
     styleUrls: ['./start.component.scss']
 })
 
-export class StartComponent { }
+export class StartComponent { 
+    //кнопки на верхней панели войти и регистрация
+}

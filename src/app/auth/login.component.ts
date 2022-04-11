@@ -17,4 +17,5 @@ export class LoginComponent {
     addUser() {
         console.log(this.user);
     }
+    // кнопка на верхней панели регистрация + текст
 }

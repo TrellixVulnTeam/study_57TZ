@@ -1,10 +1,6 @@
-<div class="background">
-    <div class="upperline">
-        <div>
-            <p class="p-children-study">ChildrenStudy</p>
-        </div>
 
-        <div class="registr">
+
+    <!-- <div class="registr"> !!! сделать кнопки в js
             <div>
                 <p>Уже зарегистрированы?</p>
             </div>
@@ -15,61 +11,38 @@
                 </nav>
             </div>
         </div>
+    </div> -->
+
+
+<div class="block-login">
+    <div class="text-enter">
+        <p class="text-enter">Регистрация</p>
     </div>
 
-    <div class="bcg-login">
-        <div class="block-login">
-            <div class="text-enter">
-                <p class="text-enter">Регистрация</p>
+    <div class="login-auth">
+        <div class="auth-block">
+            <label class="login-text">E-mail:</label>
+            <input class="login-input" [(ngModel)]="user.email" #email="ngModel" required email>
+            <div class="login-error" [hidden]="email.valid || email.untouched">
+                Некорректный e-mail
             </div>
+        </div>
 
-            <div class="login-auth">
-                <div class="auth-block">
-                    <label class="login-text">E-mail:</label>
-                    <input class="login-input" [(ngModel)]="user.email" #email="ngModel" required email>
-                    <div class="login-error" [hidden]="email.valid || email.untouched">
-                        Некорректный e-mail
-                    </div>
-                </div>
-
-                <div class="auth-block">
-                    <label class="login-text">Пароль:</label>
-                    <input type="password" id="pass1" value="" class="login-input" [(ngModel)]="user.password" #password="ngModel" required pattern="(?=^.{8,15}$)(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?!.*\s).*$">
-                    <div class="login-error" [hidden]="password.valid || password.untouched">
-                        Пароль должен содержать не менее 8 символов, одно число и одну букву верхнего и нижнего регистра
-                    </div>
-                </div>
-
-                <div class="auth-block">
-                    <label class="login-text">Повторите пароль:</label>
-                    <input type="password" id="pass2" class="login-input" value="" [(ngModel)]="user.passwordRepeat" #password="ngModel" required>
-                </div>
+        <div class="auth-block">
+            <label class="login-text">Пароль:</label>
+            <input type="password" id="pass1" value="" class="login-input" [(ngModel)]="user.password" #password="ngModel" required pattern="(?=^.{8,15}$)(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?!.*\s).*$">
+            <div class="login-error" [hidden]="password.valid || password.untouched">
+                Пароль должен содержать не менее 8 символов, одно число и одну букву верхнего и нижнего регистра
             </div>
+        </div>
 
-            <div>
-                <button class="tesuen_z" (click)="CheckPassword()">Зарегистрироваться</button>
-            </div>
+        <div class="auth-block">
+            <label class="login-text">Повторите пароль:</label>
+            <input type="password" id="pass2" class="login-input" value="" [(ngModel)]="user.passwordRepeat" #password="ngModel" required>
         </div>
     </div>
 
-    <div class="footer">
-        <p class="footer">&copy; ChildrenStudy</p>
-
-        <div class="contact">
-            <p class="contact">Наши контакты:</p>
-            <div class="contact-ico">
-                <div class="contact-phone">
-                    <img class="contact-phone" src="../../assets/img/ico-phone.png" alt>
-                    <p class="contact-phone">+375-44-519-49-46</p>
-                </div>
-
-                <a href="https://instagram.com/guscharina?utm_medium=copy_link" rel="nofollow" target="_blank">
-                    <picture>
-                        <source type="image/webp" srcset="../../assets/img/ico-inst.png">
-                        <img class="contact" src="../../assets/img/ico-inst.png" alt>
-                    </picture>
-                </a>
-            </div>
-        </div>
+    <div>
+        <button class="tesuen_z" (click)="CheckPassword()">Зарегистрироваться</button>
     </div>
 </div>
