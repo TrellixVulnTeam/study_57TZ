@@ -1,0 +1,488 @@
+<div class="total">
+    <div>
+        <img class="sun" src="../../../assets/img/sun.gif" alt="sun">
+        <img class="cloudl" src="../../../assets/img/cloud.gif" alt="cloud">
+        <img class="cloudr" src="../../../assets/img/cloud.gif" alt="cloud">
+        <img class="cloudsl" src="../../../assets/img/clouds.gif" alt="clouds">
+        <img class="cloudsr" src="../../../assets/img/clouds.gif" alt="clouds">
+        <img class="butterfliesl" src="../../../assets/img/butterflies.gif" alt="butterflies">
+        <img class="butterfliesr" src="../../../assets/img/butterflies.gif" alt="butterflies">  
+    </div>
+
+    <div id="div1">
+        <div>
+            <p class="title1">Страна русского языка</p>
+        </div>
+
+        <div class="travel">
+            <p class="title2">Путешествие</p>
+            <img class="number1" src="../../../assets/img/3.gif" alt="3">
+        </div>
+
+        <div class="text">
+            <p>Встречаемся снова с озорными буковками,</p>
+            <p>которые любят петь.</p>
+            <p style="color:red">Внимание!</p>
+        </div>
+
+        <div class="button">
+            <a class="stitched" (click)="viewDiv2()">Вперед!</a>
+        </div>
+    </div>
+
+    <div id="div2">
+        <div>
+            <p style="font-size: 2em; color: red;">На какую букву начинаются слова?</p>
+        </div>
+
+        <div>
+            <div style="display:flex; justify-content: space-between; margin-bottom: 50px;">
+                <img style="border: 3px solid red;" src="../../../assets/img/е.gif" alt="е" id="e" class="imgInDiv" (click)="clickImgE()">
+                <img style="border: 3px solid red;" src="../../../assets/img/у.gif" alt="у" id="u" class="imgInDiv" (click)="clickImgU()">
+                <img style="border: 3px solid red;" src="../../../assets/img/я.gif" alt="я" id="ya" class="imgInDiv" (click)="clickImgYa()">
+                <img style="border: 3px solid red;" src="../../../assets/img/и.gif" alt="и" id="i" class="imgInDiv" (click)="clickImgI()">
+                <img style="border: 3px solid red;" src="../../../assets/img/o.gif" alt="о" id="o" class="imgInDiv" (click)="clickImgO()">
+                <img style="border: 3px solid red;" src="../../../assets/img/а.gif" alt="а" id="a" class="imgInDiv" (click)="clickImgA()">
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/яблокоЗ.png" id="apple" alt="яблоко" class="imgInDiv" (click)="clickImgApple()">
+                <img src="../../../assets/img/улитка.png" alt="улитка" id="snail" class="imgInDiv" (click)="clickImgSnail()">
+                <img src="../../../assets/img/осел.png" alt="осел" id="donkey" class="imgInDiv" (click)="clickImgDonkey()">
+                <img src="../../../assets/img/игла.png" alt="иголка" class="imgInDiv" id="spine" (click)="clickImgSpine()">
+                <img src="../../../assets/img/арбуз.png" alt="арбуз" class="imgInDiv" id="watermelon" (click)="clickImgWatermelon()">
+                <img src="../../../assets/img/елка.png" alt="елка" class="imgInDiv" id="fir" (click)="clickImgFir()">
+            </div>
+        </div>
+
+        <div class="button">
+            <a class="stitched" (click)="viewDiv3()">Жми!</a>
+        </div>
+    </div>
+
+    <div id="div3">
+        <div>
+            <p style="font-size: 2em; color: red;">Узнай буквы.</p>
+        </div>
+
+        <div>
+            <div style="width:1000px; display:flex; justify-content: space-between; margin-bottom: 50px;">
+                <img style="border: 3px solid red;" src="../../../assets/img/м.gif" alt="м" id="m2" class="imgInDiv" (click)="clickImgM2()">
+                <img style="border: 3px solid red;" src="../../../assets/img/к.gif" alt="к" id="k2" class="imgInDiv" (click)="clickImgK2()">
+                <img style="border: 3px solid red;" src="../../../assets/img/я.gif" alt="я" id="ya2" class="imgInDiv" (click)="clickImgYa2()">
+                <img style="border: 3px solid red;" src="../../../assets/img/o.gif" alt="о" id="o2" class="imgInDiv" (click)="clickImgO2()">
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/корова.png" id="cow" alt="корова" class="imgInDiv" (click)="clickImgCow()">
+                <img src="../../../assets/img/осы.png" alt="осы" id="wasps" class="imgInDiv" (click)="clickImgWasps()">
+                <img src="../../../assets/img/якорь.png" alt="якорь" id="anchor" class="imgInDiv" (click)="clickImgAnchor()">
+                <img src="../../../assets/img/матрешка.png" alt="матрешка" class="imgInDiv" id="doll" (click)="clickImgDoll()">
+            </div>
+        </div>
+
+        <div class="button">
+            <a class="stitched" (click)="viewDiv4()">Жми!</a>
+        </div>
+    </div>
+
+    <div id="div4">
+        <div>
+            <p style="font-size: 2em; color: red;">Соедини картинку с буквой.</p>
+        </div>
+
+        <div>
+            <div style="width:1000px; display:flex; justify-content: space-between; margin-bottom: 50px;">
+                <img style="border: 3px solid red;" src="../../../assets/img/м2.gif" alt="м" id="m3" class="imgInDiv" (click)="clickImgM3()">
+                <img style="border: 3px solid red;" src="../../../assets/img/к.gif" alt="к" id="k3" class="imgInDiv" (click)="clickImgK3()">
+                <img style="border: 3px solid red;" src="../../../assets/img/а.gif" alt="а" id="a3" class="imgInDiv" (click)="clickImgA3()">
+                <img style="border: 3px solid red;" src="../../../assets/img/у.gif" alt="у" id="u3" class="imgInDiv" (click)="clickImgU3()">
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/кот.png" id="cat" alt="кот" class="imgInDiv" (click)="clickImgCat()">
+                <img src="../../../assets/img/мяч.png" alt="мяч" id="ball" class="imgInDiv" (click)="clickImgBall()">
+                <img src="../../../assets/img/утюг.jpg" alt="утюг" id="iron" class="imgInDiv" (click)="clickImgIron()">
+                <img src="../../../assets/img/ананас.png" alt="ананас" class="imgInDiv" id="pineapple" (click)="clickImgPineapple()">
+            </div>
+        </div>
+
+        <div class="button">
+            <a class="stitched" (click)="viewDiv5()">Жми!</a>
+        </div>
+    </div>
+
+    <div id="div5">
+        <div style="line-height: 0.2;">
+            <p>Знакомимся с новыми буковками,</p>
+            <p>которые не любят петь в одиночку.</p>
+        </div>
+
+        <div>
+            <img class="print" src="../../../assets/img/пузырь.png" alt="пузырь">
+            <img class="letter" src="../../../assets/img/п.gif" alt="п">
+        </div>
+        
+        <div>
+            <p>Найди букву!</p>
+        </div>
+
+        <div>
+            <button class="yellow noselect">О</button>
+            <button class="yellow noselect">А</button>
+            <button class="yellow noselect" (click)="viewDiv6()">П</button>
+            <button class="yellow noselect">И</button>
+            <button class="yellow noselect">М</button>
+            <button class="yellow noselect">Ю</button>
+            <button class="yellow noselect">Н</button>
+            <button class="yellow noselect">К</button>
+            <button class="yellow noselect">Ё</button>
+            <button class="yellow noselect">Я</button>
+        </div>
+    </div>
+
+    <div id="div6">
+        <div>
+            <img class="print" src="../../../assets/img/петух.png" alt="пузырь">
+            <img class="letter" src="../../../assets/img/П(з).gif" alt="п">
+        </div>
+        
+        <div>
+            <p>Найди букву!</p>
+        </div>
+
+        <div>
+            <button class="yellow noselect">О</button>
+            <button class="yellow noselect">А</button>
+            <button class="yellow noselect">У</button>
+            <button class="yellow noselect">И</button>
+            <button class="yellow noselect" (click)="viewDiv7()">П</button>
+            <button class="yellow noselect">К</button>
+            <button class="yellow noselect">Ы</button>
+            <button class="yellow noselect">М</button>
+            <button class="yellow noselect">Ё</button>
+            <button class="yellow noselect">Я</button>
+        </div>
+    </div>
+
+    <div id="div7">
+        <div>
+            <img class="print" src="../../../assets/img/курица.png" alt="курица">
+            <img class="letter" src="../../../assets/img/к.gif" alt="к">
+        </div>
+        
+        <div>
+            <p>Найди букву!</p>
+        </div>
+
+        <div>
+            <button class="yellow noselect">О</button>
+            <button class="yellow noselect">А</button>
+            <button class="yellow noselect">У</button>
+            <button class="yellow noselect">И</button>
+            <button class="yellow noselect">Е</button>
+            <button class="yellow noselect" (click)="viewDiv8()">К</button>
+            <button class="yellow noselect">Ы</button>
+            <button class="yellow noselect">П</button>
+            <button class="yellow noselect">М</button>
+            <button class="yellow noselect">Я</button>
+        </div>
+    </div>
+
+    <div id="div8">
+        <div>
+            <p>Петушок и курочка говорят</p>
+        </div>
+
+        <div style="display:flex; align-items: center; justify-content: center;">
+            <img style="width: 100px;" src="../../../assets/img/к.gif" alt="к">
+            <img style="width: 100px;" src="../../../assets/img/o.gif" alt="о">
+            <img style="width: 50px;" src="../../../assets/img/тире.png" alt="-">
+            <img style="width: 100px;" src="../../../assets/img/к.gif" alt="к">
+            <img style="width: 100px;" src="../../../assets/img/o.gif" alt="о">
+            <img class="print" src="../../../assets/img/курица.png" alt="курица">
+        </div>
+        
+        <div>
+            <p>Найди слово!</p>
+        </div>
+
+        <div>
+            <button style="width: 300px;" class="yellow noselect" (click)="viewDiv9()">КО-КО</button>
+            <button style="width: 300px;" class="yellow noselect">КУ-КУ</button>
+            <button style="width: 300px;" class="yellow noselect">ОК-ОК</button>
+            <button style="width: 300px;" class="yellow noselect">ИК-ИК</button>
+            <button style="width: 300px;" class="yellow noselect">МО-МО</button>
+        </div>
+    </div>
+
+    <div id="div9">
+        <div>
+            <p>Попробуй прочитать слово.</p>
+        </div>
+
+        <div style="display:flex; align-items: center; justify-content: center;">
+            <img class="print" src="../../../assets/img/мама.png" alt="мама">
+            <img style="width: 100px;" src="../../../assets/img/м.gif" alt="м">
+            <img style="width: 100px;" src="../../../assets/img/а.gif" alt="а">
+            <img style="width: 100px;" src="../../../assets/img/м.gif" alt="м">
+            <img style="width: 100px;" src="../../../assets/img/а.gif" alt="а">
+        </div>
+        
+        <div>
+            <p>Найди слово!</p>
+        </div>
+
+        <div>
+            <button style="width: 300px;" class="yellow noselect">МИМИ</button>
+            <button style="width: 300px;" class="yellow noselect">МОМО</button>
+            <button style="width: 300px;" class="yellow noselect" (click)="viewDiv10()">МАМА</button>
+            <button style="width: 300px;" class="yellow noselect">МЕМЕ</button>
+            <button style="width: 300px;" class="yellow noselect">МУМУ</button>
+        </div>
+    </div>
+
+    <div id="div10">
+        <div>
+            <p>Попробуй прочитать слово.</p>
+        </div>
+
+        <div style="display:flex; align-items: center; justify-content: center;">
+            <img class="print" src="../../../assets/img/папа.png" alt="папа">
+            <img style="width: 100px;" src="../../../assets/img/п.gif" alt="п">
+            <img style="width: 100px;" src="../../../assets/img/а.gif" alt="а">
+            <img style="width: 100px;" src="../../../assets/img/п.gif" alt="п">
+            <img style="width: 100px;" src="../../../assets/img/а.gif" alt="а">
+        </div>
+        
+        <div>
+            <p>Найди слово!</p>
+        </div>
+
+        <div>
+            <button style="width: 300px;" class="yellow noselect">ПИПИ</button>
+            <button style="width: 300px;" class="yellow noselect" (click)="viewDiv11()">ПАПА</button>
+            <button style="width: 300px;" class="yellow noselect">ПОПО</button>
+            <button style="width: 300px;" class="yellow noselect">ПЕПЕ</button>
+            <button style="width: 300px;" class="yellow noselect">ПУПУ</button>
+        </div>
+    </div>
+
+    <div id="div11">
+        <div>
+            <p>Вспомни, как говорит кукушка.</p>
+        </div>
+
+        <div style="display:flex; align-items: center; margin-left: 100px;">
+            <img style="width: 100px;" src="../../../assets/img/к.gif" alt="к">
+            <img style="width: 100px;" src="../../../assets/img/у.gif" alt="у">
+            <img style="width: 50px;" src="../../../assets/img/тире.png" alt="-">
+            <img style="width: 100px;" src="../../../assets/img/к.gif" alt="к">
+            <img style="width: 100px;" src="../../../assets/img/у.gif" alt="у">
+            <img class="print" src="../../../assets/img/кукушка.png" alt="кукушка">
+        </div>
+        
+        <div>
+            <p>Найди слово!</p>
+        </div>
+
+        <div>
+            <button style="width: 300px;" class="yellow noselect">МУ-МУ</button>
+            <button style="width: 300px;" class="yellow noselect" (click)="viewDiv12()">КУ-КУ</button>
+            <button style="width: 300px;" class="yellow noselect">АУ-КУ</button>
+            <button style="width: 300px;" class="yellow noselect">КУ-МУ</button>
+        </div>
+    </div>
+
+    <div id="div12">
+        <div>
+            <p style="font-size: 2em; color: red;">Прочитай и сложи слово!</p>
+        </div>
+
+        <div class="center">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/к.gif" alt="к">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/o.gif" alt="о">
+            <img style="width: 50px;" src="../../../assets/img/тире.png" alt="-">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/к.gif" alt="к">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/o.gif" alt="О">
+        </div>
+
+        <div class="center">
+            <img id="image1" style="width: 100px; height: 140px;" src="../../../assets/img/o.gif" alt="О">
+            <button style="height:90px; display: flex; justify-content: center; align-items: center;" (click)="changeImage()"><img style="height:70px;" src="../../../assets/img/стрелка.png"></button>
+            <img id="image2" style="width: 100px; height: 140px;" src="../../../assets/img/к.gif" alt="К">
+            <img style="width: 50px;" src="../../../assets/img/тире.png" alt="-">
+            <img id="image3" style="width: 100px; height: 140px;" src="../../../assets/img/o.gif" alt="О">
+            <button style="height:90px; display: flex; justify-content: center; align-items: center;" (click)="changeImage2()"><img style="height:70px;" src="../../../assets/img/стрелка.png"></button>
+            <img id="image4" style="width: 100px; height: 140px;" src="../../../assets/img/к.gif" alt="К">
+        </div>
+        
+        <div>
+            <a class="stitched" (click)="checkImage()">Проверить</a>
+        </div>
+    </div>
+
+    <div id="div13">
+        <div>
+            <p style="font-size: 2em; color: red;">Прочитай и сложи слово!</p>
+        </div>
+
+        <div class="center">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/м.gif" alt="М">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/а.gif" alt="А">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/м.gif" alt="М">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/а.gif" alt="А">
+        </div>
+
+        <div class="center">
+            <img id="image5" style="width: 100px; height: 140px;" src="../../../assets/img/а.gif" alt="А">
+            <button style="height:90px; display: flex; justify-content: center; align-items: center;" (click)="changeImage3()"><img style="height:70px;" src="../../../assets/img/стрелка.png"></button>
+            <img id="image6" style="width: 100px; height: 140px;" src="../../../assets/img/м.gif" alt="м">
+            <img id="image7" style="width: 100px; height: 140px;" src="../../../assets/img/а.gif" alt="А">
+            <button style="height:90px; display: flex; justify-content: center; align-items: center;" (click)="changeImage4()"><img style="height:70px;" src="../../../assets/img/стрелка.png"></button>
+            <img id="image8" style="width: 100px; height: 140px;" src="../../../assets/img/м.gif" alt="М">
+        </div>
+        
+        <div>
+            <a class="stitched" (click)="checkImage2()">Проверить</a>
+        </div>
+    </div>
+
+    <div id="div14">
+        <div>
+            <p style="font-size: 2em; color: red;">Прочитай и сложи слово!</p>
+        </div>
+
+        <div class="center">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/п.gif" alt="П">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/а.gif" alt="А">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/п.gif" alt="П">
+            <img style="width: 100px; height: 140px;" src="../../../assets/img/а.gif" alt="А">
+        </div>
+
+        <div class="center">
+            <img id="image9" style="width: 100px; height: 140px;" src="../../../assets/img/а.gif" alt="А">
+            <button style="height:90px; display: flex; justify-content: center; align-items: center;" (click)="changeImage5()"><img style="height:70px;" src="../../../assets/img/стрелка.png"></button>
+            <img id="image10" style="width: 100px; height: 140px;" src="../../../assets/img/п.gif" alt="П">
+            <img id="image11" style="width: 100px; height: 140px;" src="../../../assets/img/а.gif" alt="А">
+            <button style="height:90px; display: flex; justify-content: center; align-items: center;" (click)="changeImage6()"><img style="height:70px;" src="../../../assets/img/стрелка.png"></button>
+            <img id="image12" style="width: 100px; height: 140px;" src="../../../assets/img/п.gif" alt="П">
+        </div>
+        
+        <div>
+            <a class="stitched" (click)="checkImage3()">Проверить</a>
+        </div>
+    </div>
+
+    <div id="div15">
+        <div>
+            <p style="font-size: 2em; color: red;">Прочитай и запиши.</p>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-bottom: 50px;">
+            <div class="spanAndInput">
+                <span class="spanInDiv">ПАПА</span>
+                <input id="input1" type="text" class="inputInDiv">
+            </div>
+
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">МАМА</span>
+                <input id="input2" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">КУ-КУ</span>
+                <input id="input3" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">КО-КО</span>
+                <input id="input4" type="text" class="inputInDiv">
+            </div>
+        </div>
+
+        <div>
+            <a class="stitched" (click)="checkInput1()">Проверить</a>
+        </div>
+    </div>
+
+    <div id="div16">
+        <div>
+            <p>Замечательно!</p>
+        </div>
+
+        <div>
+            <img src="../../../assets/img/а.gif" alt="A">
+            <img src="../../../assets/img/и.gif" alt="И">
+            <img src="../../../assets/img/o.gif" alt="О">
+            <img src="../../../assets/img/у.gif" alt="У">
+            <img src="../../../assets/img/я.gif" alt="Я">
+            <img style="width: 110px;" src="../../../assets/img/м.gif" alt="М">
+            <img style="width: 110px;"  src="../../../assets/img/м2.gif" alt="М">
+            <img style="width: 110px;"  src="../../../assets/img/к.gif" alt="К">
+            <img style="width: 110px;"  src="../../../assets/img/п.gif" alt="П">
+            <img style="width: 110px;"  src="../../../assets/img/П(з).gif" alt="П">
+            <img style="width: 110px;"  src="../../../assets/img/е.gif" alt="Е">
+        </div>
+
+        <div style="margin-bottom: 100px;">
+            <img src="../../../assets/img/звезды.gif" alt="звезды">
+            <img src="../../../assets/img/звезды.gif" alt="звезды">
+            <img src="../../../assets/img/звезды.gif" alt="звезды">
+        </div>
+
+        <div>
+            <a class="stitched" (click)="viewDiv17()">Домашнее задание</a>
+        </div>
+    </div>
+
+    <div id="div17">
+        <div>
+            <p style="font-size: 2em; color: red;">Прочитай и соедини.</p>
+        </div>
+
+        <div>
+            <div style="display:flex; flex-direction:row; margin-bottom:50px;">
+                <div class="inDiv">
+                    <div class="textInDiv">А</div>
+                    <div class="divInDiv" id="divForA" (click)="clickDivForA()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="textInDiv">П</div>
+                    <div class="divInDiv" id="divForP" (click)="clickDivForP()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="textInDiv">У</div>
+                    <div class="divInDiv" id="divForU" (click)="clickDivForU()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="textInDiv">КО-КО</div>
+                    <div class="divInDiv" id="divForChicken" (click)="clickDivForChicken()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="textInDiv">МАМА</div>
+                    <div class="divInDiv" id="divForMom" (click)="clickDivForMom()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="textInDiv">ПАПА</div>
+                    <div class="divInDiv" id="divForDad" (click)="clickDivForDad()"></div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/утюг.jpg" id="iron4" class="imgInDiv" (click)="clickImgIron4()">
+                <img src="../../../assets/img/папа.png" id="dad" class="imgInDiv" (click)="clickImgDad()">
+                <img src="../../../assets/img/мама.png" id="mom" class="imgInDiv" (click)="clickImgMom()">
+                <img src="../../../assets/img/ананас.png" id="pineapple4" class="imgInDiv" (click)="clickImgPineapple4()">
+                <img src="../../../assets/img/курица.png" id="chicken" class="imgInDiv" (click)="clickImgChicken()">
+                <img src="../../../assets/img/петух.png" id="cock" class="imgInDiv" (click)="clickImgCock()">
+            </div>
+        </div>
+    </div>
+</div>
