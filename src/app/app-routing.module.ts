@@ -8,6 +8,7 @@ import { Russian1 } from "./russian/russian-1/russian-1.component";
 import { Russian2 } from "./russian/russian-2/russian-2.component";
 import { Russian3 } from "./russian/russian-3/russian-3.component";
 import { Russian4 } from "./russian/russian-4/russian-4.component";
+import { Russian5 } from "./russian/russian-5/russian-5.component";
 import { StartComponent } from "./start/start.component";
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
     {path: 'russian2', component: Russian2},
     {path: 'russian3', component: Russian3},
     {path: 'russian4', component: Russian4},
+    {path: 'russian5', component: Russian5},
 ];
 
 @NgModule({

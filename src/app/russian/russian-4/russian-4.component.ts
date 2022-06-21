@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: 'russian3',
+    selector: 'russian4',
     templateUrl: './russian-4.component.html',
     styleUrls: ['./russian-4.component.scss']
 })
