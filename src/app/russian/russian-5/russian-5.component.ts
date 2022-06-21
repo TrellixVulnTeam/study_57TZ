@@ -319,13 +319,13 @@ export class Russian5 {
     };
 
     clickImgVegetables() {
-        this.imgRaccoon = false;
+        this.imgRaccoon2 = false;
         this.imgVegetables = true;
         this.imgLamb = false;
     };
 
     clickImgLamb() {
-        this.imgRaccoon = false;
+        this.imgRaccoon2 = false;
         this.imgVegetables = false;
         this.imgLamb = true;
     };

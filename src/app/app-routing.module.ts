@@ -3,13 +3,15 @@ import { Routes, RouterModule } from "@angular/router";
 
 import { LoginComponent } from "./auth/login.component";
 import { RegistrationComponent } from "./auth/registartion.component";
+import { StartComponent } from "./start/start.component";
+
 import { Russian11 } from "./russian/russian-1-1/russian-1-1.component";
 import { Russian1 } from "./russian/russian-1/russian-1.component";
 import { Russian2 } from "./russian/russian-2/russian-2.component";
 import { Russian3 } from "./russian/russian-3/russian-3.component";
 import { Russian4 } from "./russian/russian-4/russian-4.component";
 import { Russian5 } from "./russian/russian-5/russian-5.component";
-import { StartComponent } from "./start/start.component";
+import { Russian6 } from "./russian/russian-6/russian-6.component";
 
 const routes: Routes = [
     {path: '', component: StartComponent},
@@ -21,6 +23,7 @@ const routes: Routes = [
     {path: 'russian3', component: Russian3},
     {path: 'russian4', component: Russian4},
     {path: 'russian5', component: Russian5},
+    {path: 'russian6', component: Russian6},
 ];
 
 @NgModule({
