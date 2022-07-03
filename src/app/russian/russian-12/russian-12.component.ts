@@ -1139,7 +1139,6 @@ export class Russian12 {
             y!.style.transform = "translateX(-255px)";
             this.a++;
         }
-
     };
 
     checkImage1() {
