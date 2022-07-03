@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
     styleUrls: ['./russian-1-1.component.scss']
 })
 
-export class Russian11 {
+export class Russian1_1 {
     imgBerries = false;
     imgIron = false;
     imgVegetables = false;

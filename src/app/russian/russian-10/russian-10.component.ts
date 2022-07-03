@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { ftruncate } from "fs";
 
 @Component({
     selector: 'russian10',

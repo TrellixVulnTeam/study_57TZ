@@ -878,13 +878,13 @@ export class Russian7 {
             getYo!.style.border! = "3px solid green"; 
         } else if (this.imgTree == true) {
             const getImgTree = document.getElementById('tree');
-            const getYo = document.getElementById('imgYo2');
+            const getYo = document.getElementById('imgYo');
 
             getImgTree!.remove();
             getYo!.style.border! = "3px solid green"; 
         } else if (this.imgRuff == true) {
             const getImgRuff = document.getElementById('ruff');
-            const getYo = document.getElementById('imgYo3');
+            const getYo = document.getElementById('imgYo');
 
             getImgRuff!.remove();
             getYo!.style.border! = "3px solid green"; 
