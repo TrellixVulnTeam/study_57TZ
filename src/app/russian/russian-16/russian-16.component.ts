@@ -373,224 +373,32 @@ export class Russian16 {
     clickImgK() {
         if (this.imgCactus == true) {
             const getImgCactus = document.getElementById('cactus');
-            const getK = document.getElementById('imgK');
-
-            getImgCactus!.remove();
-            getK!.style.border = "3px solid green"; 
+            getImgCactus!.remove(); 
         } else if (this.imgPencil == true) {
             const getImgPencil = document.getElementById('pencil');
-            const getK = document.getElementById('imgK');
-
             getImgPencil!.remove();
-            getK!.style.border = "3px solid green"; 
         } else if (this.imgCow == true) {
             const getImgCow = document.getElementById('cow');
-            const getK = document.getElementById('imgK');
-
-            getImgCow!.remove();
-            getK!.style.border = "3px solid green"; 
+            getImgCow!.remove(); 
         } else if (this.imgGoat == true) {
             const getImgGoat = document.getElementById('goat');
-            const getK = document.getElementById('imgK');
-
             getImgGoat!.remove();
-            getK!.style.border = "3px solid green";
         }
     };
 
     clickImgK2() {
         if (this.imgKangaroo == true) {
             const getImgKangaroo = document.getElementById('kangaroo');
-            const getK = document.getElementById('imgK2');
-
             getImgKangaroo!.remove();
-            getK!.style.border = "3px solid green"; 
         } else if (this.imgCap == true) {
             const getImgCap = document.getElementById('cap');
-            const getK = document.getElementById('imgK2');
-
             getImgCap!.remove();
-            getK!.style.border = "3px solid green"; 
         } else if (this.imgKiwi == true) {
             const getImgKiwi = document.getElementById('kiwi');
-            const getK = document.getElementById('imgK2');
-
-            getImgKiwi!.remove();
-            getK!.style.border = "3px solid green"; 
+            getImgKiwi!.remove(); 
         } else if (this.imgWhale == true) {
             const getImgWhale = document.getElementById('whale');
-            const getK = document.getElementById('imgK2');
-
             getImgWhale!.remove();
-            getK!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgK3() {
-        if (this.imgCactus == true) {
-            const getImgCactus = document.getElementById('cactus');
-            const getK = document.getElementById('imgK3');
-
-            getImgCactus!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgPencil == true) {
-            const getImgPencil = document.getElementById('pencil');
-            const getK = document.getElementById('imgK3');
-
-            getImgPencil!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgCow == true) {
-            const getImgCow = document.getElementById('cow');
-            const getK = document.getElementById('imgK3');
-
-            getImgCow!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgGoat == true) {
-            const getImgGoat = document.getElementById('goat');
-            const getK = document.getElementById('imgK3');
-
-            getImgGoat!.remove();
-            getK!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgK4() {
-        if (this.imgKangaroo == true) {
-            const getImgKangaroo = document.getElementById('kangaroo');
-            const getK = document.getElementById('imgK4');
-
-            getImgKangaroo!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgCap == true) {
-            const getImgCap = document.getElementById('cap');
-            const getK = document.getElementById('imgK4');
-
-            getImgCap!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgKiwi == true) {
-            const getImgKiwi = document.getElementById('kiwi');
-            const getK = document.getElementById('imgK4');
-
-            getImgKiwi!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgWhale == true) {
-            const getImgWhale = document.getElementById('whale');
-            const getK = document.getElementById('imgK4');
-
-            getImgWhale!.remove();
-            getK!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgK5() {
-        if (this.imgCactus == true) {
-            const getImgCactus = document.getElementById('cactus');
-            const getK = document.getElementById('imgK5');
-
-            getImgCactus!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgPencil == true) {
-            const getImgPencil = document.getElementById('pencil');
-            const getK = document.getElementById('imgK5');
-
-            getImgPencil!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgCow == true) {
-            const getImgCow = document.getElementById('cow');
-            const getK = document.getElementById('imgK5');
-
-            getImgCow!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgGoat == true) {
-            const getImgGoat = document.getElementById('goat');
-            const getK = document.getElementById('imgK5');
-
-            getImgGoat!.remove();
-            getK!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgK6() {
-        if (this.imgKangaroo == true) {
-            const getImgKangaroo = document.getElementById('kangaroo');
-            const getK = document.getElementById('imgK6');
-
-            getImgKangaroo!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgCap == true) {
-            const getImgCap = document.getElementById('cap');
-            const getK = document.getElementById('imgK6');
-
-            getImgCap!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgKiwi == true) {
-            const getImgKiwi = document.getElementById('kiwi');
-            const getK = document.getElementById('imgK6');
-
-            getImgKiwi!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgWhale == true) {
-            const getImgWhale = document.getElementById('whale');
-            const getK = document.getElementById('imgK6');
-
-            getImgWhale!.remove();
-            getK!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgK7() {
-        if (this.imgCactus == true) {
-            const getImgCactus = document.getElementById('cactus');
-            const getK = document.getElementById('imgK7');
-
-            getImgCactus!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgPencil == true) {
-            const getImgPencil = document.getElementById('pencil');
-            const getK = document.getElementById('imgK7');
-
-            getImgPencil!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgCow == true) {
-            const getImgCow = document.getElementById('cow');
-            const getK = document.getElementById('imgK7');
-
-            getImgCow!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgGoat == true) {
-            const getImgGoat = document.getElementById('goat');
-            const getK = document.getElementById('imgK7');
-
-            getImgGoat!.remove();
-            getK!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgK8() {
-        if (this.imgKangaroo == true) {
-            const getImgKangaroo = document.getElementById('kangaroo');
-            const getK = document.getElementById('imgK8');
-
-            getImgKangaroo!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgCap == true) {
-            const getImgCap = document.getElementById('cap');
-            const getK = document.getElementById('imgK8');
-
-            getImgCap!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgKiwi == true) {
-            const getImgKiwi = document.getElementById('kiwi');
-            const getK = document.getElementById('imgK8');
-
-            getImgKiwi!.remove();
-            getK!.style.border = "3px solid green"; 
-        } else if (this.imgWhale == true) {
-            const getImgWhale = document.getElementById('whale');
-            const getK = document.getElementById('imgK8');
-
-            getImgWhale!.remove();
-            getK!.style.border = "3px solid green";
         }
     };
 
@@ -710,199 +518,19 @@ export class Russian16 {
         }
     };
 
-    clickImgJ2() {
-        if (this.imgCrane == true) {
-            const getImgCrane = document.getElementById('crane');
-            const getJ = document.getElementById('imgJ2');
-
-            getImgCrane!.remove();
-            getJ!.style.border = "3px solid green"; 
-        } else if (this.imgToad == true) {
-            const getImgToad = document.getElementById('toad');
-            const getJ = document.getElementById('imgJ2');
-
-            getImgToad!.remove();
-            getJ!.style.border = "3px solid green"; 
-        } else if (this.imgGiraffe == true) {
-            const getImgGiraffe = document.getElementById('giraffe');
-            const getJ = document.getElementById('imgJ2');
-
-            getImgGiraffe!.remove();
-            getJ!.style.border = "3px solid green"; 
-        } else if (this.imgBeatle == true) {
-            const getImgBeatle = document.getElementById('beatle');
-            const getJ = document.getElementById('imgJ2');
-
-            getImgBeatle!.remove();
-            getJ!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgJ3() {
-        if (this.imgCrane == true) {
-            const getImgCrane = document.getElementById('crane');
-            const getJ = document.getElementById('imgJ3');
-
-            getImgCrane!.remove();
-            getJ!.style.border = "3px solid green"; 
-        } else if (this.imgToad == true) {
-            const getImgToad = document.getElementById('toad');
-            const getJ = document.getElementById('imgJ3');
-
-            getImgToad!.remove();
-            getJ!.style.border = "3px solid green"; 
-        } else if (this.imgGiraffe == true) {
-            const getImgGiraffe = document.getElementById('giraffe');
-            const getJ = document.getElementById('imgJ3');
-
-            getImgGiraffe!.remove();
-            getJ!.style.border = "3px solid green"; 
-        } else if (this.imgBeatle == true) {
-            const getImgBeatle = document.getElementById('beatle');
-            const getJ = document.getElementById('imgJ3');
-
-            getImgBeatle!.remove();
-            getJ!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgJ4() {
-        if (this.imgCrane == true) {
-            const getImgCrane = document.getElementById('crane');
-            const getJ = document.getElementById('imgJ4');
-
-            getImgCrane!.remove();
-            getJ!.style.border = "3px solid green"; 
-        } else if (this.imgToad == true) {
-            const getImgToad = document.getElementById('toad');
-            const getJ = document.getElementById('imgJ4');
-
-            getImgToad!.remove();
-            getJ!.style.border = "3px solid green"; 
-        } else if (this.imgGiraffe == true) {
-            const getImgGiraffe = document.getElementById('giraffe');
-            const getJ = document.getElementById('imgJ4');
-
-            getImgGiraffe!.remove();
-            getJ!.style.border = "3px solid green"; 
-        } else if (this.imgBeatle == true) {
-            const getImgBeatle = document.getElementById('beatle');
-            const getJ = document.getElementById('imgJ4');
-
-            getImgBeatle!.remove();
-            getJ!.style.border = "3px solid green";
-        }
-    };
-
     clickImgM() {
         if (this.imgMill == true) {
             const getImgMill = document.getElementById('mill');
-            const getM = document.getElementById('imgM');
-
             getImgMill!.remove();
-            getM!.style.border = "3px solid green"; 
         } else if (this.imgMimosa == true) {
             const getImgMimosa = document.getElementById('mimosa');
-            const getM = document.getElementById('imgM');
-
             getImgMimosa!.remove();
-            getM!.style.border = "3px solid green"; 
         } else if (this.imgJellyfish == true) {
             const getImgJellyfish = document.getElementById('jellyfish');
-            const getM = document.getElementById('imgM');
-
             getImgJellyfish!.remove();
-            getM!.style.border = "3px solid green"; 
         } else if (this.imgBear == true) {
             const getImgBear = document.getElementById('bear');
-            const getM = document.getElementById('imgM');
-
             getImgBear!.remove();
-            getM!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgM2() {
-        if (this.imgMill == true) {
-            const getImgMill = document.getElementById('mill');
-            const getM = document.getElementById('imgM2');
-
-            getImgMill!.remove();
-            getM!.style.border = "3px solid green"; 
-        } else if (this.imgMimosa == true) {
-            const getImgMimosa = document.getElementById('mimosa');
-            const getM = document.getElementById('imgM2');
-
-            getImgMimosa!.remove();
-            getM!.style.border = "3px solid green"; 
-        } else if (this.imgJellyfish == true) {
-            const getImgJellyfish = document.getElementById('jellyfish');
-            const getM = document.getElementById('imgM2');
-
-            getImgJellyfish!.remove();
-            getM!.style.border = "3px solid green"; 
-        } else if (this.imgBear == true) {
-            const getImgBear = document.getElementById('bear');
-            const getM = document.getElementById('imgM2');
-
-            getImgBear!.remove();
-            getM!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgM3() {
-        if (this.imgMill == true) {
-            const getImgMill = document.getElementById('mill');
-            const getM = document.getElementById('imgM3');
-
-            getImgMill!.remove();
-            getM!.style.border = "3px solid green"; 
-        } else if (this.imgMimosa == true) {
-            const getImgMimosa = document.getElementById('mimosa');
-            const getM = document.getElementById('imgM3');
-
-            getImgMimosa!.remove();
-            getM!.style.border = "3px solid green"; 
-        } else if (this.imgJellyfish == true) {
-            const getImgJellyfish = document.getElementById('jellyfish');
-            const getM = document.getElementById('imgM3');
-
-            getImgJellyfish!.remove();
-            getM!.style.border = "3px solid green"; 
-        } else if (this.imgBear == true) {
-            const getImgBear = document.getElementById('bear');
-            const getM = document.getElementById('imgM3');
-
-            getImgBear!.remove();
-            getM!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgM4() {
-        if (this.imgMill == true) {
-            const getImgMill = document.getElementById('mill');
-            const getM = document.getElementById('imgM4');
-
-            getImgMill!.remove();
-            getM!.style.border = "3px solid green"; 
-        } else if (this.imgMimosa == true) {
-            const getImgMimosa = document.getElementById('mimosa');
-            const getM = document.getElementById('imgM4');
-
-            getImgMimosa!.remove();
-            getM!.style.border = "3px solid green"; 
-        } else if (this.imgJellyfish == true) {
-            const getImgJellyfish = document.getElementById('jellyfish');
-            const getM = document.getElementById('imgM4');
-
-            getImgJellyfish!.remove();
-            getM!.style.border = "3px solid green"; 
-        } else if (this.imgBear == true) {
-            const getImgBear = document.getElementById('bear');
-            const getM = document.getElementById('imgM4');
-
-            getImgBear!.remove();
-            getM!.style.border = "3px solid green";
         }
     };
 
@@ -1350,199 +978,19 @@ export class Russian16 {
         }
     };
 
-    clickImgN3() {
-        if (this.imgRhinoceros == true) {
-            const getImgRhinoceros = document.getElementById('rhinoceros');
-            const getN = document.getElementById('imgN3');
-
-            getImgRhinoceros!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgNarcissus == true) {
-            const getImgNarcissus = document.getElementById('narcissus');
-            const getN = document.getElementById('imgN3');
-
-            getImgNarcissus!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgScissors == true) {
-            const getImgScissors = document.getElementById('scissors');
-            const getN = document.getElementById('imgN3');
-
-            getImgScissors!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgBurbot == true) {
-            const getImgBurbot = document.getElementById('burbot');
-            const getN = document.getElementById('imgN3');
-
-            getImgBurbot!.remove();
-            getN!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgN5() {
-        if (this.imgRhinoceros == true) {
-            const getImgRhinoceros = document.getElementById('rhinoceros');
-            const getN = document.getElementById('imgN5');
-
-            getImgRhinoceros!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgNarcissus == true) {
-            const getImgNarcissus = document.getElementById('narcissus');
-            const getN = document.getElementById('imgN5');
-
-            getImgNarcissus!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgScissors == true) {
-            const getImgScissors = document.getElementById('scissors');
-            const getN = document.getElementById('imgN5');
-
-            getImgScissors!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgBurbot == true) {
-            const getImgBurbot = document.getElementById('burbot');
-            const getN = document.getElementById('imgN5');
-
-            getImgBurbot!.remove();
-            getN!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgN7() {
-        if (this.imgRhinoceros == true) {
-            const getImgRhinoceros = document.getElementById('rhinoceros');
-            const getN = document.getElementById('imgN7');
-
-            getImgRhinoceros!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgNarcissus == true) {
-            const getImgNarcissus = document.getElementById('narcissus');
-            const getN = document.getElementById('imgN7');
-
-            getImgNarcissus!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgScissors == true) {
-            const getImgScissors = document.getElementById('scissors');
-            const getN = document.getElementById('imgN7');
-
-            getImgScissors!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgBurbot == true) {
-            const getImgBurbot = document.getElementById('burbot');
-            const getN = document.getElementById('imgN7');
-
-            getImgBurbot!.remove();
-            getN!.style.border = "3px solid green";
-        }
-    };
-
     clickImgN2() {
         if (this.imgTumbler == true) {
             const getImgTumbler = document.getElementById('tumbler');
-            const getN = document.getElementById('imgN2');
-
             getImgTumbler!.remove();
-            getN!.style.border = "3px solid green"; 
         } else if (this.imgIgnoramus == true) {
             const getImgIgnoramus = document.getElementById('ignoramus');
-            const getN = document.getElementById('imgN2');
-
-            getImgIgnoramus!.remove();
-            getN!.style.border = "3px solid green"; 
+            getImgIgnoramus!.remove(); 
         } else if (this.imgThread == true) {
             const getImgThread = document.getElementById('thread');
-            const getN = document.getElementById('imgN2');
-
-            getImgThread!.remove();
-            getN!.style.border = "3px solid green"; 
+            getImgThread!.remove(); 
         } else if (this.imgForgetmenot == true) {
             const getImgForgetmenot = document.getElementById('forgetmenot');
-            const getN = document.getElementById('imgN2');
-
             getImgForgetmenot!.remove();
-            getN!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgN4() {
-        if (this.imgTumbler == true) {
-            const getImgTumbler = document.getElementById('tumbler');
-            const getN = document.getElementById('imgN4');
-
-            getImgTumbler!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgIgnoramus == true) {
-            const getImgIgnoramus = document.getElementById('ignoramus');
-            const getN = document.getElementById('imgN4');
-
-            getImgIgnoramus!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgThread == true) {
-            const getImgThread = document.getElementById('thread');
-            const getN = document.getElementById('imgN4');
-
-            getImgThread!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgForgetmenot == true) {
-            const getImgForgetmenot = document.getElementById('forgetmenot');
-            const getN = document.getElementById('imgN4');
-
-            getImgForgetmenot!.remove();
-            getN!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgN6() {
-        if (this.imgTumbler == true) {
-            const getImgTumbler = document.getElementById('tumbler');
-            const getN = document.getElementById('imgN6');
-
-            getImgTumbler!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgIgnoramus == true) {
-            const getImgIgnoramus = document.getElementById('ignoramus');
-            const getN = document.getElementById('imgN6');
-
-            getImgIgnoramus!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgThread == true) {
-            const getImgThread = document.getElementById('thread');
-            const getN = document.getElementById('imgN6');
-
-            getImgThread!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgForgetmenot == true) {
-            const getImgForgetmenot = document.getElementById('forgetmenot');
-            const getN = document.getElementById('imgN6');
-
-            getImgForgetmenot!.remove();
-            getN!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgN8() {
-        if (this.imgTumbler == true) {
-            const getImgTumbler = document.getElementById('tumbler');
-            const getN = document.getElementById('imgN8');
-
-            getImgTumbler!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgIgnoramus == true) {
-            const getImgIgnoramus = document.getElementById('ignoramus');
-            const getN = document.getElementById('imgN8');
-
-            getImgIgnoramus!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgThread == true) {
-            const getImgThread = document.getElementById('thread');
-            const getN = document.getElementById('imgN8');
-
-            getImgThread!.remove();
-            getN!.style.border = "3px solid green"; 
-        } else if (this.imgForgetmenot == true) {
-            const getImgForgetmenot = document.getElementById('forgetmenot');
-            const getN = document.getElementById('imgN8');
-
-            getImgForgetmenot!.remove();
-            getN!.style.border = "3px solid green";
         }
     };
 
