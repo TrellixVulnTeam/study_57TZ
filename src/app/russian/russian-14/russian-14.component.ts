@@ -388,225 +388,25 @@ export class Russian14 {
 
     clickImgB() {
         if (this.imgBanana == true) {
-            const getImgBanana = document.getElementById('banana');
-            const getB = document.getElementById('imgB');
-
-            getImgBanana!.remove();
-            getB!.style.border = "3px solid green"; 
+            document.getElementById('banana')!.remove();
         } else if (this.imgDrum == true) {
-            const getImgDrum = document.getElementById('drum');
-            const getB = document.getElementById('imgB');
-
-            getImgDrum!.remove();
-            getB!.style.border = "3px solid green"; 
+            document.getElementById('drum')!.remove();
         } else if (this.imgRam == true) {
-            const getImgRam = document.getElementById('ram');
-            const getB = document.getElementById('imgB');
-
-            getImgRam!.remove();
-            getB!.style.border = "3px solid green"; 
+            document.getElementById('ram')!.remove(); 
         } else if (this.imgBarrel == true) {
-            const getImgBarrel = document.getElementById('barrel');
-            const getB = document.getElementById('imgB');
-
-            getImgBarrel!.remove();
-            getB!.style.border = "3px solid green";
+            document.getElementById('barrel')!.remove();
         }
     };
 
     clickImgB2() {
         if (this.imgHippopotamus == true) {
-            const getImgHippopotamus = document.getElementById('hippopotamus');
-            const getB = document.getElementById('imgB2');
-
-            getImgHippopotamus!.remove();
-            getB!.style.border = "3px solid green"; 
+            document.getElementById('hippopotamus')!.remove();
         } else if (this.imgRunner == true) {
-            const getImgRunner = document.getElementById('runner');
-            const getB = document.getElementById('imgB2');
-
-            getImgRunner!.remove();
-            getB!.style.border = "3px solid green"; 
+            document.getElementById('runner')!.remove();
         } else if (this.imgTicket == true) {
-            const getImgTicket = document.getElementById('ticket');
-            const getB = document.getElementById('imgB2');
-
-            getImgTicket!.remove();
-            getB!.style.border = "3px solid green"; 
+            document.getElementById('ticket')!.remove(); 
         } else if (this.imgSquirrel == true) {
-            const getImgSquirrel = document.getElementById('squirrel');
-            const getB = document.getElementById('imgB2');
-
-            getImgSquirrel!.remove();
-            getB!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgB3() {
-        if (this.imgBanana == true) {
-            const getImgBanana = document.getElementById('banana');
-            const getB = document.getElementById('imgB3');
-
-            getImgBanana!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgDrum == true) {
-            const getImgDrum = document.getElementById('drum');
-            const getB = document.getElementById('imgB3');
-
-            getImgDrum!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgRam == true) {
-            const getImgRam = document.getElementById('ram');
-            const getB = document.getElementById('imgB3');
-
-            getImgRam!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgBarrel == true) {
-            const getImgBarrel = document.getElementById('barrel');
-            const getB = document.getElementById('imgB3');
-
-            getImgBarrel!.remove();
-            getB!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgB5() {
-        if (this.imgBanana == true) {
-            const getImgBanana = document.getElementById('banana');
-            const getB = document.getElementById('imgB5');
-
-            getImgBanana!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgDrum == true) {
-            const getImgDrum = document.getElementById('drum');
-            const getB = document.getElementById('imgB5');
-
-            getImgDrum!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgRam == true) {
-            const getImgRam = document.getElementById('ram');
-            const getB = document.getElementById('imgB5');
-
-            getImgRam!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgBarrel == true) {
-            const getImgBarrel = document.getElementById('barrel');
-            const getB = document.getElementById('imgB5');
-
-            getImgBarrel!.remove();
-            getB!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgB7() {
-        if (this.imgBanana == true) {
-            const getImgBanana = document.getElementById('banana');
-            const getB = document.getElementById('imgB7');
-
-            getImgBanana!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgDrum == true) {
-            const getImgDrum = document.getElementById('drum');
-            const getB = document.getElementById('imgB7');
-
-            getImgDrum!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgRam == true) {
-            const getImgRam = document.getElementById('ram');
-            const getB = document.getElementById('imgB7');
-
-            getImgRam!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgBarrel == true) {
-            const getImgBarrel = document.getElementById('barrel');
-            const getB = document.getElementById('imgB7');
-
-            getImgBarrel!.remove();
-            getB!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgB4() {
-        if (this.imgHippopotamus == true) {
-            const getImgHippopotamus = document.getElementById('hippopotamus');
-            const getB = document.getElementById('imgB4');
-
-            getImgHippopotamus!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgRunner == true) {
-            const getImgRunner = document.getElementById('runner');
-            const getB = document.getElementById('imgB4');
-
-            getImgRunner!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgTicket == true) {
-            const getImgTicket = document.getElementById('ticket');
-            const getB = document.getElementById('imgB4');
-
-            getImgTicket!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgSquirrel == true) {
-            const getImgSquirrel = document.getElementById('squirrel');
-            const getB = document.getElementById('imgB4');
-
-            getImgSquirrel!.remove();
-            getB!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgB6() {
-        if (this.imgHippopotamus == true) {
-            const getImgHippopotamus = document.getElementById('hippopotamus');
-            const getB = document.getElementById('imgB6');
-
-            getImgHippopotamus!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgRunner == true) {
-            const getImgRunner = document.getElementById('runner');
-            const getB = document.getElementById('imgB6');
-
-            getImgRunner!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgTicket == true) {
-            const getImgTicket = document.getElementById('ticket');
-            const getB = document.getElementById('imgB6');
-
-            getImgTicket!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgSquirrel == true) {
-            const getImgSquirrel = document.getElementById('squirrel');
-            const getB = document.getElementById('imgB6');
-
-            getImgSquirrel!.remove();
-            getB!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgB8() {
-        if (this.imgHippopotamus == true) {
-            const getImgHippopotamus = document.getElementById('hippopotamus');
-            const getB = document.getElementById('imgB8');
-
-            getImgHippopotamus!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgRunner == true) {
-            const getImgRunner = document.getElementById('runner');
-            const getB = document.getElementById('imgB8');
-
-            getImgRunner!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgTicket == true) {
-            const getImgTicket = document.getElementById('ticket');
-            const getB = document.getElementById('imgB8');
-
-            getImgTicket!.remove();
-            getB!.style.border = "3px solid green"; 
-        } else if (this.imgSquirrel == true) {
-            const getImgSquirrel = document.getElementById('squirrel');
-            const getB = document.getElementById('imgB8');
-
-            getImgSquirrel!.remove();
-            getB!.style.border = "3px solid green";
+            document.getElementById('squirrel')!.remove();
         }
     };
 
@@ -700,225 +500,25 @@ export class Russian14 {
 
     clickImgYu() {
         if (this.imgWhirligig == true) {
-            const getImgWhirligig = document.getElementById('whirligig');
-            const getYu = document.getElementById('imgYu');
-
-            getImgWhirligig!.remove();
-            getYu!.style.border! = "3px solid green"; 
+            document.getElementById('whirligig')!.remove(); 
         } else if (this.imgSeaCadet == true) {
-            const getImgSeaCadet = document.getElementById('seaCadet');
-            const getYu = document.getElementById('imgYu');
-
-            getImgSeaCadet!.remove();
-            getYu!.style.border! = "3px solid green"; 
+            document.getElementById('seaCadet')!.remove();
         } else if (this.imgSkirt == true) {
-            const getImgSkirt = document.getElementById('skirt');
-            const getYu = document.getElementById('imgYu');
-
-            getImgSkirt!.remove();
-            getYu!.style.border! = "3px solid green";
+            document.getElementById('skirt')!.remove();
         } else if (this.imgYurt == true) {
-            const getImgYurt = document.getElementById('yurt');
-            const getYu = document.getElementById('imgYu');
-
-            getImgYurt!.remove();
-            getYu!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgYu2() {
-        if (this.imgWhirligig == true) {
-            const getImgWhirligig = document.getElementById('whirligig');
-            const getYu = document.getElementById('imgYu2');
-
-            getImgWhirligig!.remove();
-            getYu!.style.border! = "3px solid green"; 
-        } else if (this.imgSeaCadet == true) {
-            const getImgSeaCadet = document.getElementById('seaCadet');
-            const getYu = document.getElementById('imgYu2');
-
-            getImgSeaCadet!.remove();
-            getYu!.style.border! = "3px solid green"; 
-        } else if (this.imgSkirt == true) {
-            const getImgSkirt = document.getElementById('skirt');
-            const getYu = document.getElementById('imgYu2');
-
-            getImgSkirt!.remove();
-            getYu!.style.border! = "3px solid green";
-        } else if (this.imgYurt == true) {
-            const getImgYurt = document.getElementById('yurt');
-            const getYu = document.getElementById('imgYu2');
-
-            getImgYurt!.remove();
-            getYu!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgYu3() {
-        if (this.imgWhirligig == true) {
-            const getImgWhirligig = document.getElementById('whirligig');
-            const getYu = document.getElementById('imgYu3');
-
-            getImgWhirligig!.remove();
-            getYu!.style.border! = "3px solid green"; 
-        } else if (this.imgSeaCadet == true) {
-            const getImgSeaCadet = document.getElementById('seaCadet');
-            const getYu = document.getElementById('imgYu3');
-
-            getImgSeaCadet!.remove();
-            getYu!.style.border! = "3px solid green"; 
-        } else if (this.imgSkirt == true) {
-            const getImgSkirt = document.getElementById('skirt');
-            const getYu = document.getElementById('imgYu3');
-
-            getImgSkirt!.remove();
-            getYu!.style.border! = "3px solid green";
-        } else if (this.imgYurt == true) {
-            const getImgYurt = document.getElementById('yurt');
-            const getYu = document.getElementById('imgYu3');
-
-            getImgYurt!.remove();
-            getYu!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgYu4() {
-        if (this.imgWhirligig == true) {
-            const getImgWhirligig = document.getElementById('whirligig');
-            const getYu = document.getElementById('imgYu4');
-
-            getImgWhirligig!.remove();
-            getYu!.style.border! = "3px solid green"; 
-        } else if (this.imgSeaCadet == true) {
-            const getImgSeaCadet = document.getElementById('seaCadet');
-            const getYu = document.getElementById('imgYu4');
-
-            getImgSeaCadet!.remove();
-            getYu!.style.border! = "3px solid green"; 
-        } else if (this.imgSkirt == true) {
-            const getImgSkirt = document.getElementById('skirt');
-            const getYu = document.getElementById('imgYu4');
-
-            getImgSkirt!.remove();
-            getYu!.style.border! = "3px solid green";
-        } else if (this.imgYurt == true) {
-            const getImgYurt = document.getElementById('yurt');
-            const getYu = document.getElementById('imgYu4');
-
-            getImgYurt!.remove();
-            getYu!.style.border! = "3px solid green";
+            document.getElementById('yurt')!.remove();
         }
     };
 
     clickImgU() {
         if (this.imgDuck == true) {
-            const getImgDuck = document.getElementById('duck');
-            const getU = document.getElementById('imgU');
-
-            getImgDuck!.remove();
-            getU!.style.border! = "3px solid green"; 
+            document.getElementById('duck')!.remove(); 
         } else if (this.imgIron == true) {
-            const getImgIron = document.getElementById('iron');
-            const getU = document.getElementById('imgU');
-
-            getImgIron!.remove();
-            getU!.style.border! = "3px solid green"; 
+            document.getElementById('iron')!.remove(); 
         } else if (this.imgUdot == true) {
-            const getImgUdot = document.getElementById('udot');
-            const getU = document.getElementById('imgU');
-
-            getImgUdot!.remove();
-            getU!.style.border! = "3px solid green";
+            document.getElementById('udot')!.remove();
         } else if (this.imgRod == true) {
-            const getImgRod = document.getElementById('rod');
-            const getU = document.getElementById('imgU');
-
-            getImgRod!.remove();
-            getU!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgU2() {
-        if (this.imgDuck == true) {
-            const getImgDuck = document.getElementById('duck');
-            const getU = document.getElementById('imgU2');
-
-            getImgDuck!.remove();
-            getU!.style.border! = "3px solid green"; 
-        } else if (this.imgIron == true) {
-            const getImgIron = document.getElementById('iron');
-            const getU = document.getElementById('imgU2');
-
-            getImgIron!.remove();
-            getU!.style.border! = "3px solid green"; 
-        } else if (this.imgUdot == true) {
-            const getImgUdot = document.getElementById('udot');
-            const getU = document.getElementById('imgU2');
-
-            getImgUdot!.remove();
-            getU!.style.border! = "3px solid green";
-        } else if (this.imgRod == true) {
-            const getImgRod = document.getElementById('rod');
-            const getU = document.getElementById('imgU2');
-
-            getImgRod!.remove();
-            getU!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgU3() {
-        if (this.imgDuck == true) {
-            const getImgDuck = document.getElementById('duck');
-            const getU = document.getElementById('imgU3');
-
-            getImgDuck!.remove();
-            getU!.style.border! = "3px solid green"; 
-        } else if (this.imgIron == true) {
-            const getImgIron = document.getElementById('iron');
-            const getU = document.getElementById('imgU3');
-
-            getImgIron!.remove();
-            getU!.style.border! = "3px solid green"; 
-        } else if (this.imgUdot == true) {
-            const getImgUdot = document.getElementById('udot');
-            const getU = document.getElementById('imgU3');
-
-            getImgUdot!.remove();
-            getU!.style.border! = "3px solid green";
-        } else if (this.imgRod == true) {
-            const getImgRod = document.getElementById('rod');
-            const getU = document.getElementById('imgU3');
-
-            getImgRod!.remove();
-            getU!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgU4() {
-        if (this.imgDuck == true) {
-            const getImgDuck = document.getElementById('duck');
-            const getU = document.getElementById('imgU4');
-
-            getImgDuck!.remove();
-            getU!.style.border! = "3px solid green"; 
-        } else if (this.imgIron == true) {
-            const getImgIron = document.getElementById('iron');
-            const getU = document.getElementById('imgU4');
-
-            getImgIron!.remove();
-            getU!.style.border! = "3px solid green"; 
-        } else if (this.imgUdot == true) {
-            const getImgUdot = document.getElementById('udot');
-            const getU = document.getElementById('imgU4');
-
-            getImgUdot!.remove();
-            getU!.style.border! = "3px solid green";
-        } else if (this.imgRod == true) {
-            const getImgRod = document.getElementById('rod');
-            const getU = document.getElementById('imgU4');
-
-            getImgRod!.remove();
-            getU!.style.border! = "3px solid green";
+            document.getElementById('rod')!.remove();
         }
     };
 

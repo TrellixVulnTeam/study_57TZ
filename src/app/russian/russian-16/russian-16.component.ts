@@ -492,45 +492,25 @@ export class Russian16 {
 
     clickImgJ() {
         if (this.imgCrane == true) {
-            const getImgCrane = document.getElementById('crane');
-            const getJ = document.getElementById('imgJ');
-
-            getImgCrane!.remove();
-            getJ!.style.border = "3px solid green"; 
+            const getImgCrane = document.getElementById('crane')!.remove(); 
         } else if (this.imgToad == true) {
-            const getImgToad = document.getElementById('toad');
-            const getJ = document.getElementById('imgJ');
-
-            getImgToad!.remove();
-            getJ!.style.border = "3px solid green"; 
+            const getImgToad = document.getElementById('toad')!.remove(); 
         } else if (this.imgGiraffe == true) {
-            const getImgGiraffe = document.getElementById('giraffe');
-            const getJ = document.getElementById('imgJ');
-
-            getImgGiraffe!.remove();
-            getJ!.style.border = "3px solid green"; 
+            const getImgGiraffe = document.getElementById('giraffe')!.remove(); 
         } else if (this.imgBeatle == true) {
-            const getImgBeatle = document.getElementById('beatle');
-            const getJ = document.getElementById('imgJ');
-
-            getImgBeatle!.remove();
-            getJ!.style.border = "3px solid green";
+            const getImgBeatle = document.getElementById('beatle')!.remove();
         }
     };
 
     clickImgM() {
         if (this.imgMill == true) {
-            const getImgMill = document.getElementById('mill');
-            getImgMill!.remove();
+            const getImgMill = document.getElementById('mill')!.remove();
         } else if (this.imgMimosa == true) {
-            const getImgMimosa = document.getElementById('mimosa');
-            getImgMimosa!.remove();
+            const getImgMimosa = document.getElementById('mimosa')!.remove();
         } else if (this.imgJellyfish == true) {
-            const getImgJellyfish = document.getElementById('jellyfish');
-            getImgJellyfish!.remove();
+            const getImgJellyfish = document.getElementById('jellyfish')!.remove();
         } else if (this.imgBear == true) {
-            const getImgBear = document.getElementById('bear');
-            getImgBear!.remove();
+            const getImgBear = document.getElementById('bear')!.remove();
         }
     };
 
@@ -952,45 +932,25 @@ export class Russian16 {
 
     clickImgN() {
         if (this.imgRhinoceros == true) {
-            const getImgRhinoceros = document.getElementById('rhinoceros');
-            const getN = document.getElementById('imgN');
-
-            getImgRhinoceros!.remove();
-            getN!.style.border = "3px solid green"; 
+            const getImgRhinoceros = document.getElementById('rhinoceros')!.remove(); 
         } else if (this.imgNarcissus == true) {
-            const getImgNarcissus = document.getElementById('narcissus');
-            const getN = document.getElementById('imgN');
-
-            getImgNarcissus!.remove();
-            getN!.style.border = "3px solid green"; 
+            const getImgNarcissus = document.getElementById('narcissus')!.remove(); 
         } else if (this.imgScissors == true) {
-            const getImgScissors = document.getElementById('scissors');
-            const getN = document.getElementById('imgN');
-
-            getImgScissors!.remove();
-            getN!.style.border = "3px solid green"; 
+            const getImgScissors = document.getElementById('scissors')!.remove(); 
         } else if (this.imgBurbot == true) {
-            const getImgBurbot = document.getElementById('burbot');
-            const getN = document.getElementById('imgN');
-
-            getImgBurbot!.remove();
-            getN!.style.border = "3px solid green";
+            const getImgBurbot = document.getElementById('burbot')!.remove();
         }
     };
 
     clickImgN2() {
         if (this.imgTumbler == true) {
-            const getImgTumbler = document.getElementById('tumbler');
-            getImgTumbler!.remove();
+            const getImgTumbler = document.getElementById('tumbler')!.remove();
         } else if (this.imgIgnoramus == true) {
-            const getImgIgnoramus = document.getElementById('ignoramus');
-            getImgIgnoramus!.remove(); 
+            const getImgIgnoramus = document.getElementById('ignoramus')!.remove(); 
         } else if (this.imgThread == true) {
-            const getImgThread = document.getElementById('thread');
-            getImgThread!.remove(); 
+            const getImgThread = document.getElementById('thread')!.remove(); 
         } else if (this.imgForgetmenot == true) {
-            const getImgForgetmenot = document.getElementById('forgetmenot');
-            getImgForgetmenot!.remove();
+            const getImgForgetmenot = document.getElementById('forgetmenot')!.remove();
         }
     };
 

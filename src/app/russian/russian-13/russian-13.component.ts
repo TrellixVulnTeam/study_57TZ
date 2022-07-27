@@ -389,225 +389,25 @@ export class Russian13 {
 
     clickImgL() {
         if (this.imgOnion == true) {
-            const getImgOnion = document.getElementById('onion');
-            const getL = document.getElementById('imgL');
-
-            getImgOnion!.remove();
-            getL!.style.border = "3px solid green"; 
+            document.getElementById('onion')!.remove(); 
         } else if (this.imgMoose == true) {
-            const getImgMoose = document.getElementById('moose');
-            const getL = document.getElementById('imgL');
-
-            getImgMoose!.remove();
-            getL!.style.border = "3px solid green"; 
+            document.getElementById('moose')!.remove(); 
         } else if (this.imgSpoon == true) {
-            const getImgSpoon = document.getElementById('spoon');
-            const getL = document.getElementById('imgL');
-
-            getImgSpoon!.remove();
-            getL!.style.border = "3px solid green"; 
+            document.getElementById('spoon')!.remove(); 
         } else if (this.imgMagnifier == true) {
-            const getImgMagnifier = document.getElementById('magnifier');
-            const getL = document.getElementById('imgL');
-
-            getImgMagnifier!.remove();
-            getL!.style.border = "3px solid green";
+            document.getElementById('magnifier')!.remove();
         }
     };
 
     clickImgL2() {
         if (this.imgFox == true) {
-            const getImgFox = document.getElementById('fox');
-            const getL = document.getElementById('imgL2');
-
-            getImgFox!.remove();
-            getL!.style.border = "3px solid green"; 
+            document.getElementById('fox')!.remove(); 
         } else if (this.imgFrog == true) {
-            const getImgFrog = document.getElementById('frog');
-            const getL = document.getElementById('imgL2');
-
-            getImgFrog!.remove();
-            getL!.style.border = "3px solid green"; 
+            document.getElementById('frog')!.remove(); 
         } else if (this.imgWateringCan == true) {
-            const getImgWateringCan = document.getElementById('wateringCan');
-            const getL = document.getElementById('imgL2');
-
-            getImgWateringCan!.remove();
-            getL!.style.border = "3px solid green"; 
+            document.getElementById('wateringCan')!.remove(); 
         } else if (this.imgLemon == true) {
-            const getImgLemon = document.getElementById('lemon');
-            const getL = document.getElementById('imgL2');
-
-            getImgLemon!.remove();
-            getL!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgL3() {
-        if (this.imgOnion == true) {
-            const getImgOnion = document.getElementById('onion');
-            const getL = document.getElementById('imgL3');
-
-            getImgOnion!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgMoose == true) {
-            const getImgMoose = document.getElementById('moose');
-            const getL = document.getElementById('imgL3');
-
-            getImgMoose!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgSpoon == true) {
-            const getImgSpoon = document.getElementById('spoon');
-            const getL = document.getElementById('imgL3');
-
-            getImgSpoon!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgMagnifier == true) {
-            const getImgMagnifier = document.getElementById('magnifier');
-            const getL = document.getElementById('imgL3');
-
-            getImgMagnifier!.remove();
-            getL!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgL5() {
-        if (this.imgOnion == true) {
-            const getImgOnion = document.getElementById('onion');
-            const getL = document.getElementById('imgL5');
-
-            getImgOnion!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgMoose == true) {
-            const getImgMoose = document.getElementById('moose');
-            const getL = document.getElementById('imgL5');
-
-            getImgMoose!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgSpoon == true) {
-            const getImgSpoon = document.getElementById('spoon');
-            const getL = document.getElementById('imgL5');
-
-            getImgSpoon!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgMagnifier == true) {
-            const getImgMagnifier = document.getElementById('magnifier');
-            const getL = document.getElementById('imgL5');
-
-            getImgMagnifier!.remove();
-            getL!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgL7() {
-        if (this.imgOnion == true) {
-            const getImgOnion = document.getElementById('onion');
-            const getL = document.getElementById('imgL7');
-
-            getImgOnion!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgMoose == true) {
-            const getImgMoose = document.getElementById('moose');
-            const getL = document.getElementById('imgL7');
-
-            getImgMoose!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgSpoon == true) {
-            const getImgSpoon = document.getElementById('spoon');
-            const getL = document.getElementById('imgL7');
-
-            getImgSpoon!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgMagnifier == true) {
-            const getImgMagnifier = document.getElementById('magnifier');
-            const getL = document.getElementById('imgL7');
-
-            getImgMagnifier!.remove();
-            getL!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgL4() {
-        if (this.imgFox == true) {
-            const getImgFox = document.getElementById('fox');
-            const getL = document.getElementById('imgL4');
-
-            getImgFox!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgFrog == true) {
-            const getImgFrog = document.getElementById('frog');
-            const getL = document.getElementById('imgL4');
-
-            getImgFrog!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgWateringCan == true) {
-            const getImgWateringCan = document.getElementById('wateringCan');
-            const getL = document.getElementById('imgL4');
-
-            getImgWateringCan!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgLemon == true) {
-            const getImgLemon = document.getElementById('lemon');
-            const getL = document.getElementById('imgL4');
-
-            getImgLemon!.remove();
-            getL!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgL6() {
-        if (this.imgFox == true) {
-            const getImgFox = document.getElementById('fox');
-            const getL = document.getElementById('imgL6');
-
-            getImgFox!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgFrog == true) {
-            const getImgFrog = document.getElementById('frog');
-            const getL = document.getElementById('imgL6');
-
-            getImgFrog!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgWateringCan == true) {
-            const getImgWateringCan = document.getElementById('wateringCan');
-            const getL = document.getElementById('imgL6');
-
-            getImgWateringCan!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgLemon == true) {
-            const getImgLemon = document.getElementById('lemon');
-            const getL = document.getElementById('imgL6');
-
-            getImgLemon!.remove();
-            getL!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgL8() {
-        if (this.imgFox == true) {
-            const getImgFox = document.getElementById('fox');
-            const getL = document.getElementById('imgL8');
-
-            getImgFox!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgFrog == true) {
-            const getImgFrog = document.getElementById('frog');
-            const getL = document.getElementById('imgL8');
-
-            getImgFrog!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgWateringCan == true) {
-            const getImgWateringCan = document.getElementById('wateringCan');
-            const getL = document.getElementById('imgL8');
-
-            getImgWateringCan!.remove();
-            getL!.style.border = "3px solid green"; 
-        } else if (this.imgLemon == true) {
-            const getImgLemon = document.getElementById('lemon');
-            const getL = document.getElementById('imgL8');
-
-            getImgLemon!.remove();
-            getL!.style.border = "3px solid green";
+            document.getElementById('lemon')!.remove();
         }
     };
 
@@ -701,228 +501,29 @@ export class Russian13 {
 
     clickImgD() {
         if (this.imgMelon == true) {
-            const getImgMelon = document.getElementById('melon');
-            const getD = document.getElementById('imgD');
-
-            getImgMelon!.remove();
-            getD!.style.border = "3px solid green"; 
+            document.getElementById('melon')!.remove(); 
         } else if (this.imgDragon == true) {
-            const getImgDragon = document.getElementById('dragon');
-            const getD = document.getElementById('imgD');
-
-            getImgDragon!.remove();
-            getD!.style.border = "3px solid green"; 
+            document.getElementById('dragon')!.remove(); 
         } else if (this.imgBlackbird == true) {
-            const getImgBlackbird = document.getElementById('blackbird');
-            const getD = document.getElementById('imgD');
-
-            getImgBlackbird!.remove();
-            getD!.style.border = "3px solid green"; 
+            document.getElementById('blackbird')!.remove(); 
         } else if (this.imgHouse == true) {
-            const getImgHouse = document.getElementById('house');
-            const getD = document.getElementById('imgD');
-
-            getImgHouse!.remove();
-            getD!.style.border = "3px solid green";
+            document.getElementById('house')!.remove();
         }
     };
 
     clickImgD2() {
         if (this.imgSofa == true) {
-            const getImgSofa = document.getElementById('sofa');
-            const getD = document.getElementById('imgD2');
-
-            getImgSofa!.remove();
-            getD!.style.border = "3px solid green"; 
+            const getImgSofa = document.getElementById('sofa')!.remove(); 
         } else if (this.imgWoodpecker == true) {
-            const getImgWoodpecker = document.getElementById('woodpecker');
-            const getD = document.getElementById('imgD2');
-
-            getImgWoodpecker!.remove();
-            getD!.style.border = "3px solid green"; 
+            const getImgWoodpecker = document.getElementById('woodpecker')!.remove(); 
         } else if (this.imgTree == true) {
-            const getImgTree = document.getElementById('tree');
-            const getD = document.getElementById('imgD2');
-
-            getImgTree!.remove();
-            getD!.style.border = "3px solid green"; 
+            const getImgTree = document.getElementById('tree')!.remove(); 
         } else if (this.imgDolphin == true) {
-            const getImgDolphin = document.getElementById('dolphin');
-            const getD = document.getElementById('imgD2');
-
-            getImgDolphin!.remove();
-            getD!.style.border = "3px solid green";
+            const getImgDolphin = document.getElementById('dolphin')!.remove();
         }
     };
 
-    clickImgD3() {
-        if (this.imgMelon == true) {
-            const getImgMelon = document.getElementById('melon');
-            const getD = document.getElementById('imgD3');
-
-            getImgMelon!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgDragon == true) {
-            const getImgDragon = document.getElementById('dragon');
-            const getD = document.getElementById('imgD3');
-
-            getImgDragon!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgBlackbird == true) {
-            const getImgBlackbird = document.getElementById('blackbird');
-            const getD = document.getElementById('imgD3');
-
-            getImgBlackbird!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgHouse == true) {
-            const getImgHouse = document.getElementById('house');
-            const getD = document.getElementById('imgD3');
-
-            getImgHouse!.remove();
-            getD!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgD5() {
-        if (this.imgMelon == true) {
-            const getImgMelon = document.getElementById('melon');
-            const getD = document.getElementById('imgD5');
-
-            getImgMelon!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgDragon == true) {
-            const getImgDragon = document.getElementById('dragon');
-            const getD = document.getElementById('imgD5');
-
-            getImgDragon!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgBlackbird == true) {
-            const getImgBlackbird = document.getElementById('blackbird');
-            const getD = document.getElementById('imgD5');
-
-            getImgBlackbird!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgHouse == true) {
-            const getImgHouse = document.getElementById('house');
-            const getD = document.getElementById('imgD5');
-
-            getImgHouse!.remove();
-            getD!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgD7() {
-        if (this.imgMelon == true) {
-            const getImgMelon = document.getElementById('melon');
-            const getD = document.getElementById('imgD7');
-
-            getImgMelon!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgDragon == true) {
-            const getImgDragon = document.getElementById('dragon');
-            const getD = document.getElementById('imgD7');
-
-            getImgDragon!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgBlackbird == true) {
-            const getImgBlackbird = document.getElementById('blackbird');
-            const getD = document.getElementById('imgD7');
-
-            getImgBlackbird!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgHouse == true) {
-            const getImgHouse = document.getElementById('house');
-            const getD = document.getElementById('imgD7');
-
-            getImgHouse!.remove();
-            getD!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgD4() {
-        if (this.imgSofa == true) {
-            const getImgSofa = document.getElementById('sofa');
-            const getD = document.getElementById('imgD4');
-
-            getImgSofa!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgWoodpecker == true) {
-            const getImgWoodpecker = document.getElementById('woodpecker');
-            const getD = document.getElementById('imgD4');
-
-            getImgWoodpecker!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgTree == true) {
-            const getImgTree = document.getElementById('tree');
-            const getD = document.getElementById('imgD4');
-
-            getImgTree!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgDolphin == true) {
-            const getImgDolphin = document.getElementById('dolphin');
-            const getD = document.getElementById('imgD4');
-
-            getImgDolphin!.remove();
-            getD!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgD6() {
-        if (this.imgSofa == true) {
-            const getImgSofa = document.getElementById('sofa');
-            const getD = document.getElementById('imgD6');
-
-            getImgSofa!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgWoodpecker == true) {
-            const getImgWoodpecker = document.getElementById('woodpecker');
-            const getD = document.getElementById('imgD6');
-
-            getImgWoodpecker!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgTree == true) {
-            const getImgTree = document.getElementById('tree');
-            const getD = document.getElementById('imgD6');
-
-            getImgTree!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgDolphin == true) {
-            const getImgDolphin = document.getElementById('dolphin');
-            const getD = document.getElementById('imgD6');
-
-            getImgDolphin!.remove();
-            getD!.style.border = "3px solid green";
-        }
-    };
-
-    clickImgD8() {
-        if (this.imgSofa == true) {
-            const getImgSofa = document.getElementById('sofa');
-            const getD = document.getElementById('imgD8');
-
-            getImgSofa!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgWoodpecker == true) {
-            const getImgWoodpecker = document.getElementById('woodpecker');
-            const getD = document.getElementById('imgD8');
-
-            getImgWoodpecker!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgTree == true) {
-            const getImgTree = document.getElementById('tree');
-            const getD = document.getElementById('imgD8');
-
-            getImgTree!.remove();
-            getD!.style.border = "3px solid green"; 
-        } else if (this.imgDolphin == true) {
-            const getImgDolphin = document.getElementById('dolphin');
-            const getD = document.getElementById('imgD8');
-
-            getImgDolphin!.remove();
-            getD!.style.border = "3px solid green";
-        }
-    };
-
+    
     checkInput2() {
         let checkValue = 0;
         const valueOfInput1 = (<HTMLInputElement>document.getElementById('input15')).value;

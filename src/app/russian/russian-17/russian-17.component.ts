@@ -376,33 +376,25 @@ export class Russian17 {
 
     clickImgN() {
         if (this.imgRhinoceros == true) {
-            const getImgRhinoceros = document.getElementById('rhinoceros');
-            getImgRhinoceros!.remove();
+            const getImgRhinoceros = document.getElementById('rhinoceros')!.remove();
         } else if (this.imgNarcissus == true) {
-            const getImgNarcissus = document.getElementById('narcissus');
-            getImgNarcissus!.remove(); 
+            const getImgNarcissus = document.getElementById('narcissus')!.remove(); 
         } else if (this.imgScissors == true) {
-            const getImgScissors = document.getElementById('scissors');
-            getImgScissors!.remove();
+            const getImgScissors = document.getElementById('scissors')!.remove();
         } else if (this.imgBurbot == true) {
-            const getImgBurbot = document.getElementById('burbot');
-            getImgBurbot!.remove();
+            const getImgBurbot = document.getElementById('burbot')!.remove();
         }
     };
 
     clickImgN2() {
         if (this.imgTumbler == true) {
-            const getImgTumbler = document.getElementById('tumbler');
-            getImgTumbler!.remove(); 
+            const getImgTumbler = document.getElementById('tumbler')!.remove(); 
         } else if (this.imgIgnoramus == true) {
-            const getImgIgnoramus = document.getElementById('ignoramus');
-            getImgIgnoramus!.remove();
+            const getImgIgnoramus = document.getElementById('ignoramus')!.remove();
         } else if (this.imgThread == true) {
-            const getImgThread = document.getElementById('thread');
-            getImgThread!.remove(); 
+            const getImgThread = document.getElementById('thread')!.remove(); 
         } else if (this.imgForgetmenot == true) {
-            const getImgForgetmenot = document.getElementById('forgetmenot');
-            getImgForgetmenot!.remove();
+            const getImgForgetmenot = document.getElementById('forgetmenot')!.remove();
         }
     };
 
@@ -588,53 +580,41 @@ export class Russian17 {
 
     clickImgE() {
         if (this.imgRaccoon == true) {
-            const getImgRaccoon = document.getElementById('raccoon');
-            getImgRaccoon!.remove(); 
+            const getImgRaccoon = document.getElementById('raccoon')!.remove(); 
         } else if (this.imgBlackberry == true) {
-            const getImgBlackberry = document.getElementById('blackberry');
-            getImgBlackberry!.remove();
+            const getImgBlackberry = document.getElementById('blackberry')!.remove();
         } else if (this.imgUnicorn == true) {
-            const getImgUnicorn = document.getElementById('unicorn');
-            getImgUnicorn!.remove();
+            const getImgUnicorn = document.getElementById('unicorn')!.remove();
         };
     };
 
     clickImgYo() {
         if (this.imgRuff == true) {
-            const getImgRuff = document.getElementById('ruff');
-            getImgRuff!.remove(); 
+            const getImgRuff = document.getElementById('ruff')!.remove(); 
         } else if (this.imgHedgehog == true) {
-            const getImgHedgehog = document.getElementById('hedgehog');
-            getImgHedgehog!.remove();
+            const getImgHedgehog = document.getElementById('hedgehog')!.remove();
         } else if (this.imgTree == true) {
-            const getImgTree = document.getElementById('tree');
-            getImgTree!.remove();
+            const getImgTree = document.getElementById('tree')!.remove();
         };
     };
 
     clickImgL() {
         if (this.imgFrog == true) {
-            const getImgFrog = document.getElementById('frog');
-            getImgFrog!.remove(); 
+            const getImgFrog = document.getElementById('frog')!.remove(); 
         } else if (this.imgFox == true) {
-            const getImgFox = document.getElementById('fox');
-            getImgFox!.remove();
+            const getImgFox = document.getElementById('fox')!.remove();
         } else if (this.imgLemon == true) {
-            const getImgLemon = document.getElementById('lemon');
-            getImgLemon!.remove();
+            const getImgLemon = document.getElementById('lemon')!.remove();
         };
     };
 
     clickImgL2() {
         if (this.imgOnion == true) {
-            const getImgOnion = document.getElementById('onion');
-            getImgOnion!.remove(); 
+            const getImgOnion = document.getElementById('onion')!.remove(); 
         } else if (this.imgMoose == true) {
-            const getImgMoose = document.getElementById('moose');
-            getImgMoose!.remove();
+            const getImgMoose = document.getElementById('moose')!.remove();
         } else if (this.imgLama == true) {
-            const getImgLama = document.getElementById('lama');
-            getImgLama!.remove();
+            const getImgLama = document.getElementById('lama')!.remove();
         };
     };
 

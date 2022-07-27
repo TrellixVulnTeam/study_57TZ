@@ -507,33 +507,25 @@ export class Russian15 {
 
     clickImgYu() {
         if (this.imgWhirligig == true) {
-            const getImgWhirligig = document.getElementById('whirligig');
-            getImgWhirligig!.remove(); 
+            const getImgWhirligig = document.getElementById('whirligig')!.remove(); 
         } else if (this.imgSeaCadet == true) {
-            const getImgSeaCadet = document.getElementById('seaCadet');
-            getImgSeaCadet!.remove();
+            const getImgSeaCadet = document.getElementById('seaCadet')!.remove();
         } else if (this.imgSkirt == true) {
-            const getImgSkirt = document.getElementById('skirt');
-            getImgSkirt!.remove();
+            const getImgSkirt = document.getElementById('skirt')!.remove();
         } else if (this.imgYurt == true) {
-            const getImgYurt = document.getElementById('yurt');
-            getImgYurt!.remove();
+            const getImgYurt = document.getElementById('yurt')!.remove();
         }
     };
 
     clickImgU() {
         if (this.imgDuck == true) {
-            const getImgDuck = document.getElementById('duck');
-            getImgDuck!.remove(); 
+            const getImgDuck = document.getElementById('duck')!.remove(); 
         } else if (this.imgIron == true) {
-            const getImgIron = document.getElementById('iron');
-            getImgIron!.remove(); 
+            const getImgIron = document.getElementById('iron')!.remove(); 
         } else if (this.imgUdot == true) {
-            const getImgUdot = document.getElementById('udot');
-            getImgUdot!.remove();
+            const getImgUdot = document.getElementById('udot')!.remove();
         } else if (this.imgRod == true) {
-            const getImgRod = document.getElementById('rod');
-            getImgRod!.remove();
+            const getImgRod = document.getElementById('rod')!.remove();
         }
     };
 
