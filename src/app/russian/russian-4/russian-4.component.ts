@@ -49,7 +49,6 @@ export class Russian4 {
     imgT4 = false;
     imgMagnifier = false;
     imgPaw = false;
-    imgCat2 = false;
     imgRain = false;
 
     viewDiv2() {
@@ -157,56 +156,6 @@ export class Russian4 {
         document.getElementById("div22")!.style.display = "block";
     };
 
-    clickImgP() {
-        if (this.imgBubble == true) {
-            const getImgBubble = document.getElementById('bubble');
-            const getP = document.getElementById('p');
-
-            getImgBubble!.remove();
-            getP!.style.border! = "3px solid green"; 
-        };
-    };
-
-    clickImgYa() {
-        if (this.imgAnchor == true) {
-            const getImgAnchor = document.getElementById('anchor');
-            const getYa = document.getElementById('ya');
-
-            getImgAnchor!.remove();
-            getYa!.style.border! = "3px solid green"; 
-        };
-    };
-
-    clickImgI() {
-        if (this.imgTurkey == true) {
-            const getImgTurkey = document.getElementById('turkey');
-            const getI = document.getElementById('i');
-
-            getImgTurkey!.remove();
-            getI!.style.border! = "3px solid green"; 
-        };
-    };
-
-    clickImgO() {
-        if (this.imgWasps == true) {
-            const getImgWasps = document.getElementById('wasps');
-            const getO = document.getElementById('o');
-
-            getImgWasps!.remove();
-            getO!.style.border! = "3px solid green"; 
-        };
-    };
-
-    clickImgM() {
-        if (this.imgBall == true) {
-            const getImgBall = document.getElementById('ball');
-            const getM = document.getElementById('m');
-
-            getImgBall!.remove();
-            getM!.style.border! = "3px solid green"; 
-        };
-    };
-
     clickImgTurkey() {
         this.imgTurkey = true;
         this.imgAnchor = false;
@@ -247,53 +196,38 @@ export class Russian4 {
         this.imgWasps = true;
     };
 
-    clickImgU2() {
-        if (this.imgDuck == true) {
-            const getImgDuck = document.getElementById('duck');
-            const getU = document.getElementById('u2');
-
-            getImgDuck!.remove();
-            getU!.style.border! = "3px solid green"; 
+    clickImgP() {
+        if (this.imgBubble == true) {
+            document.getElementById('bubble')!.remove();
+            document.getElementById('p')!.style.border! = "3px solid green"; 
         };
     };
 
-    clickImgYa2() {
-        if (this.imgLizard == true) {
-            const getImgLizard = document.getElementById('lizard');
-            const getYa = document.getElementById('ya2');
-
-            getImgLizard!.remove();
-            getYa!.style.border! = "3px solid green"; 
+    clickImgYa() {
+        if (this.imgAnchor == true) {
+            document.getElementById('anchor')!.remove();
+            document.getElementById('ya')!.style.border! = "3px solid green"; 
         };
     };
 
-    clickImgI2() {
-        if (this.imgIndian == true) {
-            const getImgIndian = document.getElementById('indian');
-            const getI = document.getElementById('i2');
-
-            getImgIndian!.remove();
-            getI!.style.border! = "3px solid green"; 
+    clickImgI() {
+        if (this.imgTurkey == true) {
+            document.getElementById('turkey')!.remove();
+            document.getElementById('i')!.style.border! = "3px solid green"; 
         };
     };
 
-    clickImgO2() {
-        if (this.imgHoop == true) {
-            const getImgHoop = document.getElementById('hoop');
-            const getO = document.getElementById('o2');
-
-            getImgHoop!.remove();
-            getO!.style.border! = "3px solid green"; 
+    clickImgO() {
+        if (this.imgWasps == true) {
+            document.getElementById('wasps')!.remove();
+            document.getElementById('o')!.style.border! = "3px solid green"; 
         };
     };
 
-    clickImgA2() {
-        if (this.imgBus == true) {
-            const getImgBus = document.getElementById('bus');
-            const getA = document.getElementById('a2');
-
-            getImgBus!.remove();
-            getA!.style.border! = "3px solid green"; 
+    clickImgM() {
+        if (this.imgBall == true) {
+            document.getElementById('ball')!.remove();
+            document.getElementById('m')!.style.border! = "3px solid green"; 
         };
     };
 
@@ -335,6 +269,41 @@ export class Russian4 {
         this.imgHoop = false;
         this.imgIndian = false;
         this.imgLizard = true;
+    };
+
+    clickImgU2() {
+        if (this.imgDuck == true) {
+            document.getElementById('duck')!.remove();
+            document.getElementById('u2')!.style.border! = "3px solid green"; 
+        };
+    };
+
+    clickImgYa2() {
+        if (this.imgLizard == true) {
+            document.getElementById('lizard')!.remove();
+            document.getElementById('ya2')!.style.border! = "3px solid green"; 
+        };
+    };
+
+    clickImgI2() {
+        if (this.imgIndian == true) {
+            document.getElementById('indian')!.remove();
+            document.getElementById('i2')!.style.border! = "3px solid green"; 
+        };
+    };
+
+    clickImgO2() {
+        if (this.imgHoop == true) {
+            document.getElementById('hoop')!.remove();
+            document.getElementById('o2')!.style.border! = "3px solid green"; 
+        };
+    };
+
+    clickImgA2() {
+        if (this.imgBus == true) {
+            document.getElementById('bus')!.remove();
+            document.getElementById('a2')!.style.border! = "3px solid green"; 
+        };
     };
 
     clickImgPanda() {
@@ -393,98 +362,44 @@ export class Russian4 {
 
     clickImgP3() {
         if (this.imgPanda == true) {
-            const getImgPanda = document.getElementById('panda');
-            const getP = document.getElementById('p3');
-
-            getImgPanda!.remove();
-            getP!.style.border! = "3px solid green"; 
-        } else if (this.imgPenguin == true) {
-            const getImgPenguin = document.getElementById('penguin');
-            const getP = document.getElementById('p3');
-
-            getImgPenguin!.remove();
-            getP!.style.border! = "3px solid green"; 
+            document.getElementById('panda')!.remove();
+            document.getElementById('p3')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgK3() {
         if (this.imgCat == true) {
-            const getImgCat = document.getElementById('cat');
-            const getK = document.getElementById('k3');
-
-            getImgCat!.remove();
-            getK!.style.border! = "3px solid green"; 
-        } else if (this.imgWhale == true) {
-            const getImgWhale = document.getElementById('whale');
-            const getK = document.getElementById('k3');
-
-            getImgWhale!.remove();
-            getK!.style.border! = "3px solid green"; 
+            document.getElementById('cat')!.remove();
+            document.getElementById('k3')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgM3() {
         if (this.imgMouse == true) {
-            const getImgMouse = document.getElementById('mouse');
-            const getM = document.getElementById('m3');
-
-            getImgMouse!.remove();
-            getM!.style.border! = "3px solid green"; 
-        } else if (this.imgBear == true) {
-            const getImgBear = document.getElementById('bear');
-            const getM = document.getElementById('m3');
-
-            getImgBear!.remove();
-            getM!.style.border! = "3px solid green"; 
-        }
+            document.getElementById('mouse')!.remove();
+            document.getElementById('m3')!.style.border! = "3px solid green"; 
+        };
     };
 
     clickImgP4() {
-        if (this.imgPanda == true) {
-            const getImgPanda = document.getElementById('panda');
-            const getP = document.getElementById('p4');
-
-            getImgPanda!.remove();
-            getP!.style.border! = "3px solid green"; 
-        } else if (this.imgPenguin == true) {
-            const getImgPenguin = document.getElementById('penguin');
-            const getP = document.getElementById('p4');
-
-            getImgPenguin!.remove();
-            getP!.style.border! = "3px solid green"; 
+        if (this.imgPenguin == true) {
+            document.getElementById('penguin')!.remove();
+            document.getElementById('p4')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgK4() {
-        if (this.imgCat == true) {
-            const getImgCat = document.getElementById('cat');
-            const getK = document.getElementById('k4');
-
-            getImgCat!.remove();
-            getK!.style.border! = "3px solid green"; 
-        } else if (this.imgWhale == true) {
-            const getImgWhale = document.getElementById('whale');
-            const getK = document.getElementById('k4');
-
-            getImgWhale!.remove();
-            getK!.style.border! = "3px solid green"; 
+        if (this.imgWhale == true) {
+            document.getElementById('whale')!.remove();
+            document.getElementById('k4')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgM4() {
-        if (this.imgMouse == true) {
-            const getImgMouse = document.getElementById('mouse');
-            const getM = document.getElementById('m4');
-
-            getImgMouse!.remove();
-            getM!.style.border! = "3px solid green"; 
-        } else if (this.imgBear == true) {
-            const getImgBear = document.getElementById('bear');
-            const getM = document.getElementById('m4');
-
-            getImgBear!.remove();
-            getM!.style.border! = "3px solid green"; 
-        }
+        if (this.imgBear == true) {
+            document.getElementById('bear')!.remove();
+            document.getElementById('m4')!.style.border! = "3px solid green"; 
+        };
     };
 
     clickImgM5() {
@@ -1022,28 +937,28 @@ export class Russian4 {
         const valueOfInput3 = (<HTMLInputElement>document.getElementById('input3')).value;
         const valueOfInput4 = (<HTMLInputElement>document.getElementById('input4')).value;
 
-        if(valueOfInput1 == "ЛУПА") {
+        if((valueOfInput1 == "ЛУПА") || (valueOfInput1 == "лупа")) {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "МЯУ") {
+        if((valueOfInput2 == "МЯУ") || (valueOfInput2 == "мяу")) {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "КАП-КАП") {
+        if((valueOfInput3 == "КАП-КАП") || (valueOfInput3 == "кап-кап")) {
             document.getElementById('input3')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input3')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput4 == "ЛАПА") {
+        if((valueOfInput4 == "ЛАПА") || (valueOfInput4 == "лапа")) {
             document.getElementById('input4')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
@@ -1057,28 +972,28 @@ export class Russian4 {
 
     clickImgPaw() {
         this.imgPaw = true;
-        this.imgCat2 = false;
+        this.imgCat = false;
         this.imgMagnifier = false;
         this.imgRain = false;
     };
 
     clickImgCat2() {
         this.imgPaw = false;
-        this.imgCat2 = true;
+        this.imgCat = true;
         this.imgMagnifier = false;
         this.imgRain = false;
     };
 
     clickImgMagnifier() {
         this.imgPaw = false;
-        this.imgCat2 = false;
+        this.imgCat = false;
         this.imgMagnifier = true;
         this.imgRain = false;
     };
 
     clickImgRain() {
         this.imgPaw = false;
-        this.imgCat2 = false;
+        this.imgCat = false;
         this.imgMagnifier = false;
         this.imgRain = true;
     };
@@ -1094,7 +1009,7 @@ export class Russian4 {
     };
 
     clickDivForCat() {
-        if (this.imgCat2 == true) {
+        if (this.imgCat == true) {
             const getImgCat = document.getElementById('cat2');
             const getDivCat = document.getElementById('divForCat');
             getImgCat!.style.border = "none";

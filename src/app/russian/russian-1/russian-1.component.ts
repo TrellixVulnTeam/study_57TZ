@@ -207,21 +207,21 @@ export class Russian1 {
         const valueOfInput2 = (<HTMLInputElement>document.getElementById('input2')).value;
         const valueOfInput3 = (<HTMLInputElement>document.getElementById('input3')).value;
 
-        if(valueOfInput1 == "АУ") {
+        if((valueOfInput1 == "АУ") || (valueOfInput1 == "ау")) {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "ИА") {
+        if((valueOfInput2 == "ИА") || (valueOfInput2 == "иа")) {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "УА") {
+        if((valueOfInput3 == "УА") || (valueOfInput3 == "уа")) {
             document.getElementById('input3')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
@@ -235,65 +235,65 @@ export class Russian1 {
 
     checkInput2() {
         let checkValue = 0;
-        const valueOfInput4 = (<HTMLInputElement>document.getElementById('input4')).value;
-        const valueOfInput5 = (<HTMLInputElement>document.getElementById('input5')).value;
-        const valueOfInput6 = (<HTMLInputElement>document.getElementById('input6')).value;
-        const valueOfInput7 = (<HTMLInputElement>document.getElementById('input7')).value;
-        const valueOfInput8 = (<HTMLInputElement>document.getElementById('input8')).value;
-        const valueOfInput9 = (<HTMLInputElement>document.getElementById('input9')).value;
-        const valueOfInput10 = (<HTMLInputElement>document.getElementById('input10')).value;
-        const valueOfInput11 = (<HTMLInputElement>document.getElementById('input11')).value;
+        const valueOfInput1 = (<HTMLInputElement>document.getElementById('input4')).value;
+        const valueOfInput2 = (<HTMLInputElement>document.getElementById('input5')).value;
+        const valueOfInput3 = (<HTMLInputElement>document.getElementById('input6')).value;
+        const valueOfInput4 = (<HTMLInputElement>document.getElementById('input7')).value;
+        const valueOfInput5 = (<HTMLInputElement>document.getElementById('input8')).value;
+        const valueOfInput6 = (<HTMLInputElement>document.getElementById('input9')).value;
+        const valueOfInput7 = (<HTMLInputElement>document.getElementById('input10')).value;
+        const valueOfInput8 = (<HTMLInputElement>document.getElementById('input11')).value;
 
-        if(valueOfInput4 == "И") {
+        if((valueOfInput1 == "И") || (valueOfInput1 == "и")) {
             document.getElementById('input4')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input4')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput5 == "А") {
+        if((valueOfInput2 == "А") || (valueOfInput2 == "а")) {
             document.getElementById('input5')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input5')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput6 == "У") {
+        if((valueOfInput3 == "У") || (valueOfInput3 == "у")) {
             document.getElementById('input6')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input6')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput7 == "ИА") {
+        if((valueOfInput4 == "ИА") || (valueOfInput4 == "иа")) {
             document.getElementById('input7')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input7')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput8 == "АУ") {
+        if((valueOfInput5 == "АУ") || (valueOfInput5 == "ау")) {
             document.getElementById('input8')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input8')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput9 == "УА") {
+        if((valueOfInput6 == "УА") || (valueOfInput6 == "уа")) {
             document.getElementById('input9')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input9')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput10 == "О") {
+        if((valueOfInput7 == "О") || (valueOfInput7 == "о")) {
             document.getElementById('input10')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input10')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput11 == "Я") {
+        if((valueOfInput8 == "Я") || (valueOfInput8 == "я")) {
             document.getElementById('input11')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {

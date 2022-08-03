@@ -24,6 +24,8 @@ import { Russian15 } from "./russian/russian-15/russian-15.component";
 import { Russian16 } from "./russian/russian-16/russian-16.component";
 import { Russian17 } from "./russian/russian-17/russian-17.component";
 import { Russian18 } from "./russian/russian-18/russian-18.component";
+import { Russian19 } from "./russian/russian-19/russian-19.component";
+import { Russian20 } from "./russian/russian-20/russian-20.component";
 
 const routes: Routes = [
     {path: '', component: StartComponent},
@@ -47,7 +49,9 @@ const routes: Routes = [
     {path: 'russian15', component: Russian15},
     {path: 'russian16', component: Russian16},
     {path: 'russian17', component: Russian17},
-    {path: 'russian18', component: Russian18}
+    {path: 'russian18', component: Russian18},
+    {path: 'russian19', component: Russian19},
+    {path: 'russian20', component: Russian20},
 ];
 
 @NgModule({

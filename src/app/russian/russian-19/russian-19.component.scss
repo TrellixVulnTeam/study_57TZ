@@ -154,6 +154,7 @@ button:focus {
     justify-content: center;
     z-index: 2;
     height: 115px;
+    width: 205px;
 }
 
 .spanInDiv {
@@ -170,7 +171,7 @@ button:focus {
     border: none;
     font-size: 50px;
     border-radius: 20px;
-    width: 300px;
+    width: 200px;
     text-align: center;
     z-index: 2;
 }
@@ -182,6 +183,7 @@ button:focus {
     border: 1px solid black;
     border-radius: 20px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .imgInDiv:hover {
@@ -261,4 +263,9 @@ button:focus {
     border-bottom: 1px solid black;
     background-color: white;
     border-radius: 20px;
+}
+
+.letter1 {
+    height: 110px;
+    z-index: 1;
 }

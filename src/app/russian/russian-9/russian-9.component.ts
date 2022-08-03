@@ -26,9 +26,8 @@ export class Russian9 {
     imgRain = false;
     imgTree = false;
     imgToad = false;
-    imgBeatle2 = false;
     imgCrane = false;
-    imgGiraffe2 = false;
+    imgHedgehog = false;
     imgM = false;
     imgU = false;
     imgYa = false;
@@ -55,7 +54,6 @@ export class Russian9 {
     imgO10 = false;
     imgK7 = false;
     imgO11 = false;
-    imgHedgehog2 = false;
     imgT2 = false;
     imgH2 = false;
 
@@ -189,31 +187,22 @@ export class Russian9 {
 
     clickImgI() {
         if (this.imgIris == true) {
-            const getImgIris = document.getElementById('iris');
-            const getI = document.getElementById('i');
-
-            getImgIris!.remove();
-            getI!.style.border! = "3px solid green"; 
+            document.getElementById('iris')!.remove();
+            document.getElementById('i')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgA() {
         if (this.imgShark == true) {
-            const getImgShark = document.getElementById('shark');
-            const getA = document.getElementById('a');
-
-            getImgShark!.remove();
-            getA!.style.border! = "3px solid green"; 
+            document.getElementById('shark')!.remove();
+            document.getElementById('a')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgU() {
         if (this.imgUdot == true) {
-            const getImgUdot = document.getElementById('udot');
-            const getU = document.getElementById('u');
-
-            getImgUdot!.remove();
-            getU!.style.border! = "3px solid green"; 
+            document.getElementById('udot')!.remove();
+            document.getElementById('u')!.style.border! = "3px solid green"; 
         };
     };
 
@@ -237,31 +226,22 @@ export class Russian9 {
 
     clickImgE() {
         if (this.imgRaccoon == true) {
-            const getImgRaccoon = document.getElementById('raccoon');
-            const getE = document.getElementById('e');
-
-            getImgRaccoon!.remove();
-            getE!.style.border! = "3px solid green"; 
+            document.getElementById('raccoon')!.remove();
+            document.getElementById('e')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgO() {
         if (this.imgHoop == true) {
-            const getImgHoop = document.getElementById('hoop');
-            const getO = document.getElementById('o');
-
-            getImgHoop!.remove();
-            getO!.style.border! = "3px solid green"; 
+            document.getElementById('hoop')!.remove();
+            document.getElementById('o')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgYa() {
         if (this.imgLizard == true) {
-            const getImgLizard = document.getElementById('lizard');
-            const getYa = document.getElementById('ya');
-
-            getImgLizard!.remove();
-            getYa!.style.border! = "3px solid green"; 
+            document.getElementById('lizard')!.remove();
+            document.getElementById('ya')!.style.border! = "3px solid green"; 
         };
     };
 
@@ -295,53 +275,29 @@ export class Russian9 {
 
     clickImgL() {
         if (this.imgOnion == true) {
-            const getImgOnion = document.getElementById('onion');
-            const getL = document.getElementById('l');
-
-            getImgOnion!.remove();
-            getL!.style.border! = "3px solid green"; 
+            document.getElementById('onion')!.remove();
+            document.getElementById('l')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgM() {
-        if (this.imgJellyfish == true) {
-            const getImgJellyfish = document.getElementById('jellyfish');
-            const getM = document.getElementById('m');
-
-            getImgJellyfish!.remove();
-            getM!.style.border! = "3px solid green"; 
-        } else if (this.imgRaspberry == true) {
-            const getImgRaspberry = document.getElementById('raspberry');
-            const getM = document.getElementById('m');
-
-            getImgRaspberry!.remove();
-            getM!.style.border! = "3px solid green"; 
+        if (this.imgRaspberry == true) {
+            document.getElementById('raspberry')!.remove();
+            document.getElementById('m')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgJ() {
         if (this.imgBeatle == true) {
-            const getImgBeatle = document.getElementById('beatle');
-            const getJ = document.getElementById('j');
-
-            getImgBeatle!.remove();
-            getJ!.style.border! = "3px solid green"; 
+            document.getElementById('beatle')!.remove();
+            document.getElementById('j')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgM2() {
         if (this.imgJellyfish == true) {
-            const getImgJellyfish = document.getElementById('jellyfish');
-            const getM = document.getElementById('m2');
-
-            getImgJellyfish!.remove();
-            getM!.style.border! = "3px solid green"; 
-        } else if (this.imgRaspberry == true) {
-            const getImgRaspberry = document.getElementById('raspberry');
-            const getM = document.getElementById('m2');
-
-            getImgRaspberry!.remove();
-            getM!.style.border! = "3px solid green"; 
+            document.getElementById('jellyfish')!.remove();
+            document.getElementById('m2')!.style.border! = "3px solid green"; 
         };
     };
 
@@ -375,53 +331,29 @@ export class Russian9 {
 
     clickImgP() {
         if (this.imgParrot == true) {
-            const getImgParrot = document.getElementById('parrot');
-            const getP = document.getElementById('p');
-
-            getImgParrot!.remove();
-            getP!.style.border! = "3px solid green"; 
-        } else if (this.imgGun == true) {
-            const getImgGun = document.getElementById('gun');
-            const getP = document.getElementById('p');
-
-            getImgGun!.remove();
-            getP!.style.border! = "3px solid green"; 
+            document.getElementById('parrot')!.remove();
+            document.getElementById('p')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgK() {
         if (this.imgCactus == true) {
-            const getImgCactus = document.getElementById('cactus');
-            const getK = document.getElementById('k');
-
-            getImgCactus!.remove();
-            getK!.style.border! = "3px solid green"; 
+            document.getElementById('cactus')!.remove();
+            document.getElementById('k')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgP2() {
-        if (this.imgParrot == true) {
-            const getImgParrot = document.getElementById('parrot');
-            const getP = document.getElementById('p2');
-
-            getImgParrot!.remove();
-            getP!.style.border! = "3px solid green"; 
-        } else if (this.imgGun == true) {
-            const getImgGun = document.getElementById('gun');
-            const getP = document.getElementById('p2');
-
-            getImgGun!.remove();
-            getP!.style.border! = "3px solid green"; 
+        if (this.imgGun == true) {
+            document.getElementById('gun')!.remove();
+            document.getElementById('p2')!.style.border! = "3px solid green"; 
         };
     };
 
     clickImgJ2() {
         if (this.imgGiraffe == true) {
-            const getImgGiraffe = document.getElementById('giraffe');
-            const getJ = document.getElementById('j2');
-
-            getImgGiraffe!.remove();
-            getJ!.style.border! = "3px solid green"; 
+            document.getElementById('giraffe')!.remove();
+            document.getElementById('j2')!.style.border! = "3px solid green"; 
         };
     };
 
@@ -432,8 +364,8 @@ export class Russian9 {
         this.imgDinosaur = false;
         this.imgTree = false;
         this.imgRain = false;
-        this.imgBeatle2 = false;
-        this.imgGiraffe2 = false;
+        this.imgBeatle = false;
+        this.imgGiraffe = false;
     };
 
     clickImgToad() {
@@ -443,8 +375,8 @@ export class Russian9 {
         this.imgDinosaur = false;
         this.imgTree = false;
         this.imgRain = false;
-        this.imgBeatle2 = false;
-        this.imgGiraffe2 = false;
+        this.imgBeatle = false;
+        this.imgGiraffe = false;
     };
 
     clickImgCrane() {
@@ -454,8 +386,8 @@ export class Russian9 {
         this.imgDinosaur = false;
         this.imgTree = false;
         this.imgRain = false;
-        this.imgBeatle2 = false;
-        this.imgGiraffe2 = false;
+        this.imgBeatle = false;
+        this.imgGiraffe = false;
     };
 
     clickImgDinosaur() {
@@ -465,8 +397,8 @@ export class Russian9 {
         this.imgDinosaur = true;
         this.imgTree = false;
         this.imgRain = false;
-        this.imgBeatle2 = false;
-        this.imgGiraffe2 = false;
+        this.imgBeatle = false;
+        this.imgGiraffe = false;
     };
 
     clickImgTree() {
@@ -476,8 +408,8 @@ export class Russian9 {
         this.imgDinosaur = false;
         this.imgTree = true;
         this.imgRain = false;
-        this.imgBeatle2 = false;
-        this.imgGiraffe2 = false;
+        this.imgBeatle = false;
+        this.imgGiraffe = false;
     };
 
     clickImgRain() {
@@ -487,8 +419,8 @@ export class Russian9 {
         this.imgDinosaur = false;
         this.imgTree = false;
         this.imgRain = true;
-        this.imgBeatle2 = false;
-        this.imgGiraffe2 = false;
+        this.imgBeatle = false;
+        this.imgGiraffe = false;
     };
 
     clickImgBeatle2() {
@@ -498,8 +430,8 @@ export class Russian9 {
         this.imgDinosaur = false;
         this.imgTree = false;
         this.imgRain = false;
-        this.imgBeatle2 = true;
-        this.imgGiraffe2 = false;
+        this.imgBeatle = true;
+        this.imgGiraffe = false;
     };
 
     clickImgGiraffe2() {
@@ -509,231 +441,47 @@ export class Russian9 {
         this.imgDinosaur = false;
         this.imgTree = false;
         this.imgRain = false;
-        this.imgBeatle2 = false;
-        this.imgGiraffe2 = true;
+        this.imgBeatle = false;
+        this.imgGiraffe = true;
     };
 
     clickImgD() {
         if (this.imgDinosaur == true) {
-            const getImgDinosaur = document.getElementById('dinosaur');
-            const getD = document.getElementById('imgD');
-
-            getImgDinosaur!.remove();
-            getD!.style.border! = "3px solid green"; 
+            document.getElementById('dinosaur')!.remove();
+            document.getElementById('imgD')!.style.border! = "3px solid green";
+            setTimeout(() => document.getElementById('imgD')!.style.border = 'none', 500);
         } else if (this.imgHouse == true) {
-            const getImgHouse = document.getElementById('house');
-            const getD = document.getElementById('imgD');
-
-            getImgHouse!.remove();
-            getD!.style.border! = "3px solid green"; 
+            document.getElementById('house')!.remove();
+            document.getElementById('imgD')!.style.border! = "3px solid green";
+            setTimeout(() => document.getElementById('imgD')!.style.border = 'none', 500);
         } else if (this.imgTree == true) {
-            const getImgTree = document.getElementById('tree');
-            const getD = document.getElementById('imgD');
-
-            getImgTree!.remove();
-            getD!.style.border! = "3px solid green";
+            document.getElementById('tree')!.remove();
+            document.getElementById('imgD')!.style.border! = "3px solid green";
+            setTimeout(() => document.getElementById('imgD')!.style.border = 'none', 500);
         } else if (this.imgRain == true) {
-            const getImgRain = document.getElementById('rain');
-            const getD = document.getElementById('imgD');
-
-            getImgRain!.remove();
-            getD!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgD2() {
-        if (this.imgDinosaur == true) {
-            const getImgDinosaur = document.getElementById('dinosaur');
-            const getD = document.getElementById('imgD2');
-
-            getImgDinosaur!.remove();
-            getD!.style.border! = "3px solid green"; 
-        } else if (this.imgHouse == true) {
-            const getImgHouse = document.getElementById('house');
-            const getD = document.getElementById('imgD2');
-
-            getImgHouse!.remove();
-            getD!.style.border! = "3px solid green"; 
-        } else if (this.imgTree == true) {
-            const getImgTree = document.getElementById('tree');
-            const getD = document.getElementById('imgD2');
-
-            getImgTree!.remove();
-            getD!.style.border! = "3px solid green";
-        } else if (this.imgRain == true) {
-            const getImgRain = document.getElementById('rain');
-            const getD = document.getElementById('imgD2');
-
-            getImgRain!.remove();
-            getD!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgD3() {
-        if (this.imgDinosaur == true) {
-            const getImgDinosaur = document.getElementById('dinosaur');
-            const getD = document.getElementById('imgD3');
-
-            getImgDinosaur!.remove();
-            getD!.style.border! = "3px solid green"; 
-        } else if (this.imgHouse == true) {
-            const getImgHouse = document.getElementById('house');
-            const getD = document.getElementById('imgD3');
-
-            getImgHouse!.remove();
-            getD!.style.border! = "3px solid green"; 
-        } else if (this.imgTree == true) {
-            const getImgTree = document.getElementById('tree');
-            const getD = document.getElementById('imgD3');
-
-            getImgTree!.remove();
-            getD!.style.border! = "3px solid green";
-        } else if (this.imgRain == true) {
-            const getImgRain = document.getElementById('rain');
-            const getD = document.getElementById('imgD3');
-
-            getImgRain!.remove();
-            getD!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgD4() {
-        if (this.imgDinosaur == true) {
-            const getImgDinosaur = document.getElementById('dinosaur');
-            const getD = document.getElementById('imgD4');
-
-            getImgDinosaur!.remove();
-            getD!.style.border! = "3px solid green"; 
-        } else if (this.imgHouse == true) {
-            const getImgHouse = document.getElementById('house');
-            const getD = document.getElementById('imgD4');
-
-            getImgHouse!.remove();
-            getD!.style.border! = "3px solid green"; 
-        } else if (this.imgTree == true) {
-            const getImgTree = document.getElementById('tree');
-            const getD = document.getElementById('imgD4');
-
-            getImgTree!.remove();
-            getD!.style.border! = "3px solid green";
-        } else if (this.imgRain == true) {
-            const getImgRain = document.getElementById('rain');
-            const getD = document.getElementById('imgD4');
-
-            getImgRain!.remove();
-            getD!.style.border! = "3px solid green";
+            document.getElementById('rain')!.remove();
+            document.getElementById('imgD')!.style.border! = "3px solid green";
+            setTimeout(() => document.getElementById('imgD')!.style.border = 'none', 500);
         }
     };
 
     clickImgJ3() {
         if (this.imgToad == true) {
-            const getImgToad = document.getElementById('toad');
-            const getJ = document.getElementById('imgJ3');
-
-            getImgToad!.remove();
-            getJ!.style.border! = "3px solid green"; 
+            document.getElementById('toad')!.remove();
+            document.getElementById('imgJ3')!.style.border! = "3px solid green";
+            setTimeout(() => document.getElementById('imgJ3')!.style.border = 'none', 500);
         } else if (this.imgCrane == true) {
-            const getImgCrane = document.getElementById('crane');
-            const getJ = document.getElementById('imgJ3');
-
-            getImgCrane!.remove();
-            getJ!.style.border! = "3px solid green"; 
-        } else if (this.imgGiraffe2 == true) {
-            const getImgGiraffe = document.getElementById('giraffe2');
-            const getJ = document.getElementById('imgJ3');
-
-            getImgGiraffe!.remove();
-            getJ!.style.border! = "3px solid green";
-        } else if (this.imgBeatle2 == true) {
-            const getImgBeatle = document.getElementById('beatle2');
-            const getJ = document.getElementById('imgJ3');
-
-            getImgBeatle!.remove();
-            getJ!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgJ4() {
-        if (this.imgToad == true) {
-            const getImgToad = document.getElementById('toad');
-            const getJ = document.getElementById('imgJ4');
-
-            getImgToad!.remove();
-            getJ!.style.border! = "3px solid green"; 
-        } else if (this.imgCrane == true) {
-            const getImgCrane = document.getElementById('crane');
-            const getJ = document.getElementById('imgJ4');
-
-            getImgCrane!.remove();
-            getJ!.style.border! = "3px solid green"; 
-        } else if (this.imgGiraffe2 == true) {
-            const getImgGiraffe = document.getElementById('giraffe2');
-            const getJ = document.getElementById('imgJ4');
-
-            getImgGiraffe!.remove();
-            getJ!.style.border! = "3px solid green";
-        } else if (this.imgBeatle2 == true) {
-            const getImgBeatle = document.getElementById('beatle2');
-            const getJ = document.getElementById('imgJ4');
-
-            getImgBeatle!.remove();
-            getJ!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgJ5() {
-        if (this.imgToad == true) {
-            const getImgToad = document.getElementById('toad');
-            const getJ = document.getElementById('imgJ5');
-
-            getImgToad!.remove();
-            getJ!.style.border! = "3px solid green"; 
-        } else if (this.imgCrane == true) {
-            const getImgCrane = document.getElementById('crane');
-            const getJ = document.getElementById('imgJ5');
-
-            getImgCrane!.remove();
-            getJ!.style.border! = "3px solid green"; 
-        } else if (this.imgGiraffe2 == true) {
-            const getImgGiraffe = document.getElementById('giraffe2');
-            const getJ = document.getElementById('imgJ5');
-
-            getImgGiraffe!.remove();
-            getJ!.style.border! = "3px solid green";
-        } else if (this.imgBeatle2 == true) {
-            const getImgBeatle = document.getElementById('beatle2');
-            const getJ = document.getElementById('imgJ5');
-
-            getImgBeatle!.remove();
-            getJ!.style.border! = "3px solid green";
-        }
-    };
-
-    clickImgJ6() {
-        if (this.imgToad == true) {
-            const getImgToad = document.getElementById('toad');
-            const getJ = document.getElementById('imgJ6');
-
-            getImgToad!.remove();
-            getJ!.style.border! = "3px solid green"; 
-        } else if (this.imgCrane == true) {
-            const getImgCrane = document.getElementById('crane');
-            const getJ = document.getElementById('imgJ6');
-
-            getImgCrane!.remove();
-            getJ!.style.border! = "3px solid green"; 
-        } else if (this.imgGiraffe2 == true) {
-            const getImgGiraffe = document.getElementById('giraffe2');
-            const getJ = document.getElementById('imgJ6');
-
-            getImgGiraffe!.remove();
-            getJ!.style.border! = "3px solid green";
-        } else if (this.imgBeatle2 == true) {
-            const getImgBeatle = document.getElementById('beatle2');
-            const getJ = document.getElementById('imgJ6');
-
-            getImgBeatle!.remove();
-            getJ!.style.border! = "3px solid green";
+            document.getElementById('crane')!.remove();
+            document.getElementById('imgJ3')!.style.border! = "3px solid green";
+            setTimeout(() => document.getElementById('imgJ3')!.style.border = 'none', 500);
+        } else if (this.imgGiraffe == true) {
+            document.getElementById('giraffe2')!.remove();
+            document.getElementById('imgJ3')!.style.border! = "3px solid green";
+            setTimeout(() => document.getElementById('imgJ3')!.style.border = 'none', 500);
+        } else if (this.imgBeatle == true) {
+            document.getElementById('beatle2')!.remove();
+            document.getElementById('imgJ3')!.style.border! = "3px solid green";
+            setTimeout(() => document.getElementById('imgJ3')!.style.border = 'none', 500);
         }
     };
 
@@ -753,91 +501,91 @@ export class Russian9 {
         const valueOfInput12 = (<HTMLInputElement>document.getElementById('input12')).value;
         const valueOfInput13 = (<HTMLInputElement>document.getElementById('input13')).value;
 
-        if(valueOfInput1 == "Ж") {
+        if((valueOfInput1 == "Ж") || (valueOfInput1 == "ж")) {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "М") {
+        if((valueOfInput2 == "М") || (valueOfInput2 == "м")) {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "У") {
+        if((valueOfInput3 == "У") || (valueOfInput3 == "у")) {
             document.getElementById('input3')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input3')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput4 == "А") {
+        if((valueOfInput4 == "А") || (valueOfInput4 == "а")) {
             document.getElementById('input4')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input4')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput5 == "Ё") {
+        if((valueOfInput5 == "Ё") || (valueOfInput5 == "ё")) {
             document.getElementById('input5')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input5')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput6 == "И") {
+        if((valueOfInput6 == "И") || (valueOfInput6 == "и")) {
             document.getElementById('input6')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input6')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput7 == "О") {
+        if((valueOfInput7 == "О") || (valueOfInput7 == "о")) {
             document.getElementById('input7')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input7')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput8 == "Я") {
+        if((valueOfInput8 == "Я") || (valueOfInput8 == "я")) {
             document.getElementById('input8')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input8')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput9 == "Е") {
+        if((valueOfInput9 == "Е") || (valueOfInput9 == "е")) {
             document.getElementById('input9')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input9')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput10 == "П") {
+        if((valueOfInput10 == "П") || (valueOfInput10 == "п")) {
             document.getElementById('input10')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input10')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput11 == "К") {
+        if((valueOfInput11 == "К") || (valueOfInput11 == "к")) {
             document.getElementById('input11')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input11')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput12 == "Л") {
+        if((valueOfInput12 == "Л") || (valueOfInput12 == "л")) {
             document.getElementById('input12')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input12')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput13 == "Д") {
+        if((valueOfInput13 == "Д") || (valueOfInput13 == "д")) {
             document.getElementById('input13')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
@@ -1318,7 +1066,7 @@ export class Russian9 {
         this.imgO10 = false;
         this.imgK7 = false;
         this.imgO11 = false;
-        this.imgHedgehog2 = false;
+        this.imgHedgehog = false;
         this.imgT2 = false;
         this.imgH2 = false;
     };
@@ -1330,7 +1078,7 @@ export class Russian9 {
         this.imgO10 = false;
         this.imgK7 = false;
         this.imgO11 = false;
-        this.imgHedgehog2 = false;
+        this.imgHedgehog = false;
         this.imgT2 = false;
         this.imgH2 = false;
     };
@@ -1342,7 +1090,7 @@ export class Russian9 {
         this.imgO10 = false;
         this.imgK7 = false;
         this.imgO11 = false;
-        this.imgHedgehog2 = false;
+        this.imgHedgehog = false;
         this.imgT2 = false;
         this.imgH2 = false;
     };
@@ -1354,7 +1102,7 @@ export class Russian9 {
         this.imgO10 = true;
         this.imgK7 = false;
         this.imgO11 = false;
-        this.imgHedgehog2 = false;
+        this.imgHedgehog = false;
         this.imgT2 = false;
         this.imgH2 = false;
     };
@@ -1366,7 +1114,7 @@ export class Russian9 {
         this.imgO10 = false;
         this.imgK7 = true;
         this.imgO11 = false;
-        this.imgHedgehog2 = false;
+        this.imgHedgehog = false;
         this.imgT2 = false;
         this.imgH2 = false;
     };
@@ -1378,7 +1126,7 @@ export class Russian9 {
         this.imgO10 = false;
         this.imgK7 = false;
         this.imgO11 = true;
-        this.imgHedgehog2 = false;
+        this.imgHedgehog = false;
         this.imgT2 = false;
         this.imgH2 = false;
     };
@@ -1390,7 +1138,7 @@ export class Russian9 {
         this.imgO10 = false;
         this.imgK7 = false;
         this.imgO11 = false;
-        this.imgHedgehog2 = true;
+        this.imgHedgehog = true;
         this.imgT2 = false;
         this.imgH2 = false;
     };
@@ -1402,7 +1150,7 @@ export class Russian9 {
         this.imgO10 = false;
         this.imgK7 = false;
         this.imgO11 = false;
-        this.imgHedgehog2 = false;
+        this.imgHedgehog = false;
         this.imgT2 = true;
         this.imgH2 = false;
     };
@@ -1414,7 +1162,7 @@ export class Russian9 {
         this.imgO10 = false;
         this.imgK7 = false;
         this.imgO11 = false;
-        this.imgHedgehog2 = false;
+        this.imgHedgehog = false;
         this.imgT2 = false;
         this.imgH2 = true;
     };
@@ -1522,12 +1270,12 @@ export class Russian9 {
     };
 
     clickDivForHedgehog2() {
-        if (this.imgHedgehog2 == true) {
-            const getImgHedgehog2 = document.getElementById('imgHedgehog2');
-            const getDivHedgehog2 = document.getElementById('divForHedgehog2');
-            getImgHedgehog2!.style.border = 'none';
-            getDivHedgehog2!.append(getImgHedgehog2!);
-            getDivHedgehog2!.parentElement!.style.border = "3px solid green"; 
+        if (this.imgHedgehog == true) {
+            const getImgHedgehog = document.getElementById('imgHedgehog2');
+            const getDivHedgehog = document.getElementById('divForHedgehog2');
+            getImgHedgehog!.style.border = 'none';
+            getDivHedgehog!.append(getImgHedgehog!);
+            getDivHedgehog!.parentElement!.style.border = "3px solid green"; 
         };
     };
 
@@ -1559,35 +1307,35 @@ export class Russian9 {
         const valueOfInput4 = (<HTMLInputElement>document.getElementById('input17')).value;
         const valueOfInput5 = (<HTMLInputElement>document.getElementById('input18')).value;
 
-        if(valueOfInput1 == "МАМА") {
+        if((valueOfInput1 == "МАМА") || (valueOfInput1 == "мама")) {
             document.getElementById('input14')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input14')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "МЯУ") {
+        if((valueOfInput2 == "МЯУ") || (valueOfInput2 == "мяу")) {
             document.getElementById('input15')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input15')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "МОЛОКО") {
+        if((valueOfInput3 == "МОЛОКО") || (valueOfInput3 == "молоко")) {
             document.getElementById('input16')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input16')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput4 == "ПАПА") {
+        if((valueOfInput4 == "ПАПА") || (valueOfInput4 == "папа")) {
             document.getElementById('input17')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input17')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput5 == "ЁЖ") {
+        if((valueOfInput5 == "ЁЖ") || (valueOfInput5 == "ёж")) {
             document.getElementById('input18')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
@@ -1607,45 +1355,43 @@ export class Russian9 {
         const valueOfInput4 = (<HTMLInputElement>document.getElementById('input22')).value;
         const valueOfInput5 = (<HTMLInputElement>document.getElementById('input23')).value;
 
-        if(valueOfInput1 == "ЁЖ") {
+        if((valueOfInput1 == "ЁЖ") || (valueOfInput1 == "ёж")) {
             document.getElementById('input19')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input19')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "КАП-КАП") {
+        if((valueOfInput2 == "КАП-КАП") || (valueOfInput2 == "кап-кап")) {
             document.getElementById('input20')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input20')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "МЯУ") {
+        if((valueOfInput3 == "МЯУ") || (valueOfInput3 == "мяу")) {
             document.getElementById('input21')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input21')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput4 == "МАМА") {
+        if((valueOfInput4 == "МАМА") || (valueOfInput4 == "мама")) {
             document.getElementById('input22')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input22')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput5 == "ПАПА") {
+        if((valueOfInput5 == "ПАПА") || (valueOfInput5 == "папа")) {
             document.getElementById('input23')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input23')!.parentElement!.style.border = "3px solid red";
         };
 
-        function right() {alert('Правильно!');}
-
         if(checkValue === 5) {
-            setTimeout(right, 1000);
+            setTimeout(() => alert('Правильно!'), 1000);
         }
     };
 }

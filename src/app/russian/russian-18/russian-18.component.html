@@ -135,8 +135,8 @@
 
         <div>
             <div style="display:flex; width: 1500px; justify-content: space-between; margin-bottom: 50px;">
-                <img src="../../../assets/img/Б.gif" alt="Б" class="imgInDiv" (click)="clickImgB()">
-                <img src="../../../assets/img/Б(з)).gif" alt="Б" class="imgInDiv" (click)="clickImgB2()">
+                <img src="../../../assets/img/Б.gif" alt="Б" id="imgB" class="imgInDiv" (click)="clickImgB()">
+                <img src="../../../assets/img/Б(з)).gif" alt="Б" id="imgB2" class="imgInDiv" (click)="clickImgB2()">
             </div>
 
             <div style="display: flex; justify-content: space-between;">
@@ -163,8 +163,8 @@
 
         <div>
             <div style="display:flex; width: 1500px; justify-content: space-between; margin-bottom: 50px;">
-                <img src="../../../assets/img/Д.gif" alt="Д" class="imgInDiv" (click)="clickImgD()">
-                <img src="../../../assets/img/Д(з).gif" alt="Д" class="imgInDiv" (click)="clickImgD2()">
+                <img src="../../../assets/img/Д.gif" alt="Д" id="imgD" class="imgInDiv" (click)="clickImgD()">
+                <img src="../../../assets/img/Д(з).gif" alt="Д" id="imgD2" class="imgInDiv" (click)="clickImgD2()">
             </div>
 
             <div style="display: flex; justify-content: space-between;">
@@ -220,8 +220,8 @@
 
         <div>
             <div style="display:flex; width: 1500px; justify-content: space-between; margin-bottom: 50px;">
-                <img src="../../../assets/img/Г(с).gif" alt="Г" class="imgInDiv" (click)="clickImgG()">
-                <img src="../../../assets/img/Г(з).gif" alt="Г" class="imgInDiv" (click)="clickImgG2()">
+                <img src="../../../assets/img/Г(с).gif" id="imgG" alt="Г" class="imgInDiv" (click)="clickImgG()">
+                <img src="../../../assets/img/Г(з).gif" id="imgG2" alt="Г" class="imgInDiv" (click)="clickImgG2()">
             </div>
 
             <div style="display: flex; justify-content: space-between;">
@@ -274,7 +274,7 @@
         <div>
             <img class="letter" src="../../../assets/img/Г(с).gif" alt="Г">
             <img class="letter" src="../../../assets/img/Н.gif" alt="Н">
-            <img class="letter" src="../../../assets/img/o.gif" alt="О">
+            <img class="letter" src="../../../assets/img/о.gif" alt="О">
             <img class="letter" src="../../../assets/img/м.gif" alt="М">
             <img class="print" src="../../../assets/img/гном.png" alt="гном">
         </div>
@@ -293,15 +293,9 @@
     </div>
 
     <div id="div9">
-        <div>
-            <p style="font-size: 1.3em; color: red;">Прочитай и сложи слово!</p>
-        </div>
-
-        <div>
-            <img style="width: 100px;" src="../../../assets/img/Г(с).gif" alt="Г">
-            <img style="width: 100px;" src="../../../assets/img/Н.gif" alt="Н">
-            <img style="width: 100px;" src="../../../assets/img/o.gif" alt="О">
-            <img style="width: 100px;" src="../../../assets/img/м.gif" alt="М">
+        <div style="display: flex; flex-direction:row;">
+            <img style="height: 100px;" class="print" src="../../../assets/img/гном.png" alt="гном">
+            <p style="font-size: 1.3em; color: red;">Сложи слово!</p>
         </div>
 
         <div>
@@ -383,16 +377,9 @@
     </div>
 
     <div id="div12">
-        <div>
-            <p style="font-size: 1.3em; color: red;">Прочитай и сложи слово!</p>
-        </div>
-
-        <div>
-            <img style="width: 100px;" src="../../../assets/img/Г(с).gif" alt="Г">
-            <img style="width: 100px;" src="../../../assets/img/а.gif" alt="А">
-            <img style="width: 100px;" src="../../../assets/img/л.gif" alt="Л">
-            <img style="width: 100px;" src="../../../assets/img/к.gif" alt="К">
-            <img style="width: 100px;" src="../../../assets/img/а.gif" alt="А">
+        <div style="display: flex; flex-direction: row;">
+            <img style="height: 100px;" class="print" src="../../../assets/img/галка.png" alt="галка">
+            <p style="font-size: 1.3em; color: red;">Сложи слово!</p>
         </div>
 
         <div>
@@ -444,14 +431,14 @@
         <div>
             <button class="yellow noselect">О</button>
             <button class="yellow noselect">А</button>
-            <button class="yellow noselect" (click)="viewDiv14()">У</button>
+            <button class="yellow noselect">У</button>
             <button class="yellow noselect">И</button>
             <button class="yellow noselect">Е</button>
             <button class="yellow noselect">К</button>
             <button class="yellow noselect">Ж</button>
             <button class="yellow noselect">М</button>
             <button class="yellow noselect">П</button>
-            <button class="yellow noselect">Г</button>
+            <button class="yellow noselect" (click)="viewDiv14()">Г</button>
         </div>
     </div>
 
@@ -479,8 +466,8 @@
     </div>
 
     <div id="div15">
-        <div>
-            <img class="print" src="../../../assets/img/гиена.png" alt="гиена">
+        <div style="display: flex; flex-direction: row;">
+            <img style="height: 100px;" class="print" src="../../../assets/img/гиена.png" alt="гиена">
             <p style="font-size: 1.3em; color: red;">Сложи слово!</p>
         </div>
 
@@ -557,23 +544,18 @@
         </div>
 
         <div>
-            <button class="yellow noselect">ЖАК</button>
-            <button class="yellow noselect" (click)="viewDiv18()">ЖУК</button>
-            <button class="yellow noselect">ЖЮК</button>
-            <button class="yellow noselect">КУЖ</button>
-            <button class="yellow noselect">УКЖ</button>
+            <button style="width: 180px;" class="yellow noselect">ЖАК</button>
+            <button style="width: 180px;" class="yellow noselect" (click)="viewDiv18()">ЖУК</button>
+            <button style="width: 180px;" class="yellow noselect">ЖЮК</button>
+            <button style="width: 180px;" class="yellow noselect">КУЖ</button>
+            <button style="width: 180px;" class="yellow noselect">УКЖ</button>
         </div>
     </div>
 
     <div id="div18">
-        <div>
-            <p style="font-size: 1.3em; color: red;">Прочитай и сложи слово!</p>
-        </div>
-
-        <div>
-            <img style="width: 100px;" src="../../../assets/img/Ж.gif" alt="Ж">
-            <img style="width: 100px;" src="../../../assets/img/у.gif" alt="у">
-            <img style="width: 100px;" src="../../../assets/img/к.gif" alt="к">
+        <div style="display: flex; flex-direction: row;">
+            <img style="height: 100px;" class="print" src="../../../assets/img/жук.png" alt="жук">
+            <p style="font-size: 1.3em; color: red;">Сложи слово!</p>
         </div>
 
         <div>
@@ -716,7 +698,7 @@
             <img style="width: 110px;"  src="../../../assets/img/Д(з).gif" alt="Д">
             <img src="../../../assets/img/и.gif" alt="И">
             <img style="width: 110px;"  src="../../../assets/img/Ж.gif" alt="Ж">
-            <img src="../../../assets/img/o.gif" alt="О">
+            <img src="../../../assets/img/о.gif" alt="О">
             <img style="width: 110px;" src="../../../assets/img/л.gif" alt="л">
             <img style="width: 110px;"  src="../../../assets/img/Л(з).gif" alt="л">
             <img src="../../../assets/img/у.gif" alt="У">

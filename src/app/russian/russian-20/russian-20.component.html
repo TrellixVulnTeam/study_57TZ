@@ -1,0 +1,768 @@
+<div class="total">
+    <div>
+        <img class="sun" src="../../../assets/img/sun.gif" alt="sun">
+        <img class="cloudl" src="../../../assets/img/cloud.gif" alt="cloud">
+        <img class="cloudr" src="../../../assets/img/cloud.gif" alt="cloud">
+        <img class="cloudsl" src="../../../assets/img/clouds.gif" alt="clouds">
+        <img class="cloudsr" src="../../../assets/img/clouds.gif" alt="clouds">
+        <img class="butterfliesl" src="../../../assets/img/butterflies.gif" alt="butterflies">
+        <img class="butterfliesr" src="../../../assets/img/butterflies.gif" alt="butterflies">  
+    </div>
+
+    <div id="div1">
+        <div>
+            <p class="title1">Страна русского языка</p>
+        </div>
+
+        <div class="travel">
+            <p class="title2">Путешествие</p>
+            <img class="number1" src="../../../assets/img/2.gif" alt="2">
+            <img class="number1" src="../../../assets/img/0.gif" alt="0">
+        </div>
+
+        <div class="text">
+            <p>Встречаемся снова с озорными буковками,</p>
+            <p style="color:red">Внимание!</p>
+        </div>
+
+        <div class="button">
+            <a class="stitched" (click)="viewDiv2()">Вперед!</a>
+        </div>
+    </div>
+
+    <div id="div2">
+        <div>
+            <p>Прочитай и запиши буквы.</p>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-bottom: 50px;">
+            <div class="spanAndInput">
+                <span class="spanInDiv">Г</span>
+                <input id="input1" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">Ю</span>
+                <input id="input2" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">Ж</span>
+                <input id="input3" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">Л</span>
+                <input id="input4" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">П</span>
+                <input id="input5" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">М</span>
+                <input id="input6" type="text" class="inputInDiv">
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-bottom: 50px;">
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">Е</span>
+                <input id="input7" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">О</span>
+                <input id="input8" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">Ё</span>
+                <input id="input9" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">А</span>
+                <input id="input10" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">У</span>
+                <input id="input11" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">И</span>
+                <input id="input12" type="text" class="inputInDiv">
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-bottom: 50px;">
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">Я</span>
+                <input id="input13" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">К</span>
+                <input id="input14" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">Д</span>
+                <input id="input15" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">Н</span>
+                <input id="input16" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">Б</span>
+                <input id="input17" type="text" class="inputInDiv">
+            </div>
+        </div>
+
+        <div>
+            <a class="stitched" (click)="checkInput1()">Проверить</a>
+        </div>
+    </div>
+
+    <div id="div3">
+        <div>
+            <p>Узнай, на какой звук начинаются слова.</p>
+        </div>
+
+        <div>
+            <div style="display:flex; width: 1500px; justify-content: space-between; margin-bottom: 50px;">
+                <img src="../../../assets/img/л.gif" alt="Л" id="imgL" class="imgInDiv" (click)="clickImgL()">
+                <img src="../../../assets/img/Л(з).gif" alt="Л" id="imgL2" class="imgInDiv" (click)="clickImgL2()">
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/лис.png" id="fox" alt="лис" class="imgInDiv" (click)="clickImgFox()">
+                <img src="../../../assets/img/лук.png" alt="лук" id="onion" class="imgInDiv" (click)="clickImgOnion()">
+                <img src="../../../assets/img/лягушка.png" alt="лягушка" id="frog" class="imgInDiv" (click)="clickImgFrog()">
+                <img src="../../../assets/img/лось.png" alt="лось" class="imgInDiv" id="moose" (click)="clickImgMoose()">
+                <img src="../../../assets/img/лейка.png" alt="лейка" id="wateringCan" class="imgInDiv" (click)="clickImgWateringCan()">
+                <img src="../../../assets/img/ложка.png" alt="ложка" class="imgInDiv" id="spoon" (click)="clickImgSpoon()">
+                <img src="../../../assets/img/лимон.png" alt="лимон" id="lemon" class="imgInDiv" (click)="clickImgLemon()">
+                <img src="../../../assets/img/лупа.png" alt="лупа" class="imgInDiv" id="magnifier" (click)="clickImgMagnifier()">
+            </div>
+        </div>
+
+        <div class="button">
+            <a class="stitched" (click)="viewDiv4()">Жми!</a>
+        </div>
+    </div>
+
+    <div id="div4">
+        <div>
+            <p>Узнай на какую букву начинаются слова.</p>
+        </div>
+
+        <div>
+            <div style="display:flex; width: 1000px; justify-content: space-between; margin-bottom: 50px;">
+                <img src="../../../assets/img/е.gif" alt="е" id="imgE" class="imgInDiv" (click)="clickImgE()">
+                <img src="../../../assets/img/Ё.gif" alt="Ё" id="imgYo" class="imgInDiv" (click)="clickImgYo()">
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/ёж.png" id="hedgehog" alt="ёж" class="imgInDiv" (click)="clickImgHedgehog()">
+                <img src="../../../assets/img/единорог.png" alt="единорог" id="unicorn" class="imgInDiv" (click)="clickImgUnicorn()">
+                <img src="../../../assets/img/ёлка.png" alt="ёлка" id="tree" class="imgInDiv" (click)="clickImgTree()">
+                <img src="../../../assets/img/ежевика.png" alt="ежевика" class="imgInDiv" id="blackberry" (click)="clickImgBlackberry()">
+            </div>
+        </div>
+
+        <div class="button">
+            <a class="stitched" (click)="viewDiv5()">Жми!</a>
+        </div>
+    </div>
+
+    <div id="div5">
+        <div>
+            <p>На какую букву начинается слово?</p>
+        </div>
+
+        <div>
+            <img class="print" src="../../../assets/img/ёлка.png" alt="ёлка">
+        </div>
+
+        <div>
+            <button class="yellow noselect">О</button>
+            <button class="yellow noselect">А</button>
+            <button class="yellow noselect">Г</button>
+            <button class="yellow noselect">И</button>
+            <button class="yellow noselect" (click)="viewDiv6()">Ё</button>
+            <button class="yellow noselect">Л</button>
+            <button class="yellow noselect">Ю</button>
+            <button class="yellow noselect">К</button>
+            <button class="yellow noselect">Б</button>
+            <button class="yellow noselect">Я</button>
+            <button class="yellow noselect">М</button>
+        </div>
+    </div>
+
+    <div id="div6">
+        <div>
+            <img class="print" src="../../../assets/img/ёлка.png" alt="ёлка">
+            <img class="letter" src="../../../assets/img/Ё.gif" alt="Ё">
+            <img class="letter" src="../../../assets/img/л.gif" alt="Л">
+            <img class="letter" src="../../../assets/img/к.gif" alt="К">
+            <img class="letter" src="../../../assets/img/а.gif" alt="А">
+        </div>
+
+        <div>
+            <p>Найди слово!</p>
+        </div>
+
+        <div>
+            <button style="width: 290px;" class="yellow noselect">КУЛКА</button>
+            <button style="width: 290px;" class="yellow noselect">АЛКА</button>
+            <button style="width: 290px;" class="yellow noselect">ЛКАЁ</button>
+            <button style="width: 290px;" class="yellow noselect" (click)="viewDiv7()">ЁЛКА</button>
+            <button style="width: 290px;" class="yellow noselect">КЁЛКА</button>
+        </div>
+    </div>
+
+    <div id="div7">
+        <div style="display: flex; flex-direction: row;">
+            <img style="height: 100px;" class="print" src="../../../assets/img/ёлка.png" alt="ёлка">
+            <p style="font-size: 1.3em; color: red;">Сложи слово!</p>
+        </div>
+
+        <div>
+            <div style="display:flex; flex-direction:row; margin-bottom:50px;">
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForYo2" (click)="clickDivForYo2()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForL3" (click)="clickDivForL3()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForK" (click)="clickDivForK()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForA" (click)="clickDivForA()"></div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/л.gif" id="imgL3" class="imgInDiv" (click)="clickImgL3()">
+                <img src="../../../assets/img/к.gif" id="imgK" class="imgInDiv" (click)="clickImgK()">
+                <img src="../../../assets/img/а.gif" id="imgA" class="imgInDiv" (click)="clickImgA()">
+                <img src="../../../assets/img/Ё.gif" id="imgYo2" class="imgInDiv" (click)="clickImgYo2()">
+            </div>
+
+            <div class="button">
+                <a class="stitched" (click)="viewDiv8()">Жми!</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="div8">
+        <div>
+            <p>На какую букву начинается слово?</p>
+        </div>
+
+        <div>
+            <img class="print" src="../../../assets/img/юбка.png" alt="юбка">
+        </div>
+
+        <div>
+            <button class="yellow noselect">О</button>
+            <button class="yellow noselect" (click)="viewDiv9()">Ю</button>
+            <button class="yellow noselect">Д</button>
+            <button class="yellow noselect">И</button>
+            <button class="yellow noselect">М</button>
+            <button class="yellow noselect">Л</button>
+            <button class="yellow noselect">Б</button>
+            <button class="yellow noselect">К</button>
+            <button class="yellow noselect">Ё</button>
+            <button class="yellow noselect">Я</button>
+        </div>
+    </div>
+
+    <div id="div9">
+        <div>
+            <img class="print" src="../../../assets/img/юбка.png" alt="юбка">
+            <img class="letter" src="../../../assets/img/Ю.gif" alt="Ю">
+            <img class="letter" src="../../../assets/img/Б.gif" alt="Б">
+            <img class="letter" src="../../../assets/img/к.gif" alt="К">
+            <img class="letter" src="../../../assets/img/а.gif" alt="А">
+        </div>
+
+        <div>
+            <p>Найди слово!</p>
+        </div>
+
+        <div>
+            <button style="width: 290px;" class="yellow noselect">ЮБЕЛ</button>
+            <button style="width: 290px;" class="yellow noselect">ЮЛКА</button>
+            <button style="width: 290px;" class="yellow noselect">БЮКА</button>
+            <button style="width: 290px;" class="yellow noselect" (click)="viewDiv10()">ЮБКА</button>
+            <button style="width: 290px;" class="yellow noselect">ЮУКА</button>
+        </div>
+    </div>
+
+    <div id="div10">
+        <div style="display: flex; flex-direction: row;">
+            <img style="height: 100px;" class="print" src="../../../assets/img/юбка.png" alt="юбка">
+            <p style="font-size: 1.3em; color: red;">Сложи слово!</p>
+        </div>
+
+        <div>
+            <div style="display:flex; flex-direction:row; margin-bottom:50px;">
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForYu" (click)="clickDivForYu()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForB" (click)="clickDivForB()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForK2" (click)="clickDivForK2()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForA2" (click)="clickDivForA2()"></div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/Б.gif" id="imgB" class="imgInDiv" (click)="clickImgB()">
+                <img src="../../../assets/img/к.gif" id="imgK2" class="imgInDiv" (click)="clickImgK2()">
+                <img src="../../../assets/img/а.gif" id="imgA2" class="imgInDiv" (click)="clickImgA2()">
+                <img src="../../../assets/img/Ю.gif" id="imgYu" class="imgInDiv" (click)="clickImgYu()">
+            </div>
+
+            <div class="button">
+                <a class="stitched" (click)="viewDiv11()">Жми!</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="div11">
+        <div>
+            <p>На какую букву начинается слово?</p>
+        </div>
+
+        <div>
+            <img class="print" src="../../../assets/img/дуб.png" alt="дуб">
+        </div>
+
+        <div>
+            <button class="yellow noselect" (click)="viewDiv12()">Д</button>
+            <button class="yellow noselect">А</button>
+            <button class="yellow noselect">У</button>
+            <button class="yellow noselect">И</button>
+            <button class="yellow noselect">Е</button>
+            <button class="yellow noselect">К</button>
+            <button class="yellow noselect">Ж</button>
+            <button class="yellow noselect">М</button>
+            <button class="yellow noselect">П</button>
+            <button class="yellow noselect">Г</button>
+        </div>
+    </div>
+
+    <div id="div12">
+        <div>
+            <img class="print" src="../../../assets/img/дуб.png" alt="дуб">
+            <img class="letter" src="../../../assets/img/Д.gif" alt="Д">
+            <img class="letter" src="../../../assets/img/у.gif" alt="У">
+            <img class="letter" src="../../../assets/img/Б.gif" alt="Б">
+        </div>
+
+        <div>
+            <p>Найди слово!</p>
+        </div>
+
+        <div>
+            <button class="yellow noselect">ЛУБ</button>
+            <button class="yellow noselect">УБД</button>
+            <button class="yellow noselect">БУД</button>
+            <button class="yellow noselect" (click)="viewDiv13()">ДУБ</button>
+            <button class="yellow noselect">ДУД</button>
+        </div>
+    </div>
+
+    <div id="div13">
+        <div style="display: flex; flex-direction: row;">
+            <img style="height: 100px;" class="print" src="../../../assets/img/дуб.png" alt="дуб">
+            <p style="font-size: 1.3em; color: red;">Сложи слово!</p>
+        </div>
+
+        <div>
+            <div style="display:flex; flex-direction:row; margin-bottom:50px;">
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForD" (click)="clickDivForD()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForU" (click)="clickDivForU()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForB2" (click)="clickDivForB2()"></div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/Б.gif" id="imgB2" class="imgInDiv" (click)="clickImgB2()">
+                <img src="../../../assets/img/у.gif" id="imgU" class="imgInDiv" (click)="clickImgU()">
+                <img src="../../../assets/img/Д.gif" id="imgD" class="imgInDiv" (click)="clickImgD()">
+            </div>
+
+            <div class="button">
+                <a class="stitched" (click)="viewDiv14()">Жми!</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="div14">
+        <div>
+            <p>На какую букву начинается слово?</p>
+        </div>
+
+        <div>
+            <img class="print" src="../../../assets/img/жёлуди.png" alt="жёлуди">
+        </div>
+
+        <div>
+            <button class="yellow noselect">О</button>
+            <button class="yellow noselect">А</button>
+            <button class="yellow noselect">У</button>
+            <button class="yellow noselect">И</button>
+            <button class="yellow noselect">Е</button>
+            <button class="yellow noselect">К</button>
+            <button class="yellow noselect" (click)="viewDiv15()">Ж</button>
+            <button class="yellow noselect">М</button>
+            <button class="yellow noselect">П</button>
+            <button class="yellow noselect">Я</button>
+        </div>
+    </div>
+
+    <div id="div15">
+        <div>
+            <p>Найди слово!</p>
+        </div>
+
+        <div>
+            <img class="print" src="../../../assets/img/жёлуди.png" alt="жёлуди">
+        </div>
+
+        <div>
+            <button style="width: 310px;" class="yellow noselect" (click)="viewDiv16()">ЖЁЛУДИ</button>
+            <button style="width: 310px;" class="yellow noselect">ЖЁЛЮДИ</button>
+            <button style="width: 310px;" class="yellow noselect">ЖОЛУДИ</button>
+            <button style="width: 310px;" class="yellow noselect">ЖЁЛУДО</button>
+        </div>
+    </div>
+
+    <div id="div16">
+        <div style="display: flex; flex-direction: row;">
+            <img style="height: 100px;" class="print" src="../../../assets/img/жёлуди.png" alt="жёлуди">
+            <p style="font-size: 1.3em; color: red;">Сложи слово!</p>
+        </div>
+
+        <div>
+            <div style="display:flex; flex-direction:row; margin-bottom:50px;">
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForJ" (click)="clickDivForJ()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForYo3" (click)="clickDivForYo3()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForL4" (click)="clickDivForL4()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForU2" (click)="clickDivForU2()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForD2" (click)="clickDivForD2()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForI" (click)="clickDivForI()"></div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/л.gif" id="imgL4" class="imgInDiv" (click)="clickImgL4()">
+                <img src="../../../assets/img/Ж.gif" id="imgJ" class="imgInDiv" (click)="clickImgJ()">
+                <img src="../../../assets/img/и.gif" id="imgI" class="imgInDiv" (click)="clickImgI()">
+                <img src="../../../assets/img/Ё.gif" id="imgYo3" class="imgInDiv" (click)="clickImgYo3()">
+                <img src="../../../assets/img/Д.gif" id="imgD2" class="imgInDiv" (click)="clickImgD2()">
+                <img src="../../../assets/img/у.gif" id="imgU2" class="imgInDiv" (click)="clickImgU2()">
+            </div>
+
+            <div class="button">
+                <a class="stitched" (click)="viewDiv17()">Жми!</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="div17">
+        <div>
+            <p>На какую букву начинается слово?</p>
+        </div>
+
+        <div>
+            <img class="print" src="../../../assets/img/кукла.png" alt="кукла">
+        </div>
+
+        <div>
+            <button class="yellow noselect">О</button>
+            <button class="yellow noselect">М</button>
+            <button class="yellow noselect">Д</button>
+            <button class="yellow noselect">И</button>
+            <button class="yellow noselect">Ё</button>
+            <button class="yellow noselect">Л</button>
+            <button class="yellow noselect">Ю</button>
+            <button class="yellow noselect" (click)="viewDiv18()">К</button>
+            <button class="yellow noselect">Б</button>
+            <button class="yellow noselect">Я</button>
+            <button class="yellow noselect">М</button>
+        </div>
+    </div>
+
+    <div id="div18">
+        <div>
+            <img class="print" src="../../../assets/img/кукла.png" alt="кукла">
+            <img class="letter" src="../../../assets/img/к.gif" alt="К">
+            <img class="letter" src="../../../assets/img/у.gif" alt="У">
+            <img class="letter" src="../../../assets/img/к.gif" alt="К">
+            <img class="letter" src="../../../assets/img/л.gif" alt="Л">
+            <img class="letter" src="../../../assets/img/а.gif" alt="А">
+        </div>
+
+        <div>
+            <p>Найди слово!</p>
+        </div>
+
+        <div>
+            <button style="width: 290px;" class="yellow noselect">КУКДА</button>
+            <button style="width: 290px;" class="yellow noselect" (click)="viewDiv19()">КУКЛА</button>
+            <button style="width: 290px;" class="yellow noselect">КАКЛА</button>
+            <button style="width: 290px;" class="yellow noselect">КУКЛУ</button>
+        </div>
+    </div>
+
+    <div id="div19">
+        <div style="display: flex; flex-direction: row;">
+            <img style="height: 100px;" class="print" src="../../../assets/img/кукла.png" alt="кукла">
+            <p style="font-size: 1.3em; color: red;">Сложи слово!</p>
+        </div>
+
+        <div>
+            <div style="display:flex; flex-direction:row; margin-bottom:50px;">
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForK3" (click)="clickDivForK3()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForU3" (click)="clickDivForU3()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForK4" (click)="clickDivForK4()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForL5" (click)="clickDivForL5()"></div>
+                </div>
+
+                <div class="inDiv">
+                    <div class="divInDiv" id="divForA3" (click)="clickDivForA3()"></div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <img src="../../../assets/img/л.gif" id="imgL5" class="imgInDiv" (click)="clickImgL5()">
+                <img src="../../../assets/img/к.gif" id="imgK3" class="imgInDiv" (click)="clickImgK3()">
+                <img src="../../../assets/img/у.gif" id="imgU3" class="imgInDiv" (click)="clickImgU3()">
+                <img src="../../../assets/img/к.gif" id="imgK4" class="imgInDiv" (click)="clickImgK4()">
+                <img src="../../../assets/img/а.gif" id="imgA3" class="imgInDiv" (click)="clickImgA3()">
+            </div>
+
+            <div class="button">
+                <a class="stitched" (click)="viewDiv20()">Жми!</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="div20">
+        <div>
+            <p>Прочитай и запиши слоги.</p>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-bottom: 50px;">
+            <div class="spanAndInput">
+                <span class="spanInDiv">БУ</span>
+                <input id="input18" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">ОК</span>
+                <input id="input19" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">ЮД</span>
+                <input id="input20" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">МИ</span>
+                <input id="input21" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">ДИ</span>
+                <input id="input22" type="text" class="inputInDiv">
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-bottom: 50px;">
+            <div class="spanAndInput">
+                <span class="spanInDiv">ЖЁЛ</span>
+                <input id="input23" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">УМ</span>
+                <input id="input24" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">ГОЛ</span>
+                <input id="input25" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">КОЛ</span>
+                <input id="input26" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">БЕ</span>
+                <input id="input27" type="text" class="inputInDiv">
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-bottom: 50px;">
+            <div class="spanAndInput">
+                <span class="spanInDiv">УБ</span>
+                <input id="input28" type="text" class="inputInDiv">
+            </div>
+
+            <div class="spanAndInput">
+                <span class="spanInDiv">ЁЛ</span>
+                <input id="input29" type="text" class="inputInDiv">
+            </div>
+        </div>
+
+        <div>
+            <a class="stitched" (click)="checkInput2()">Проверить</a>
+        </div>
+    </div>
+
+    <div id="div21">
+        <div>
+            <p>Замечательно!</p>
+        </div>
+
+        <div>
+            <img class="letter1" src="../../../assets/img/а.gif" alt="A">
+            <img class="letter1" src="../../../assets/img/Д.gif" alt="Д">
+            <img class="letter1"src="../../../assets/img/Д(з).gif" alt="Д">
+            <img class="letter1" src="../../../assets/img/и.gif" alt="И">
+            <img class="letter1" src="../../../assets/img/Ж.gif" alt="Ж">
+            <img class="letter1" src="../../../assets/img/о.gif" alt="О">
+            <img class="letter1" src="../../../assets/img/л.gif" alt="л">
+            <img class="letter1" src="../../../assets/img/Л(з).gif" alt="л">
+            <img class="letter1" src="../../../assets/img/у.gif" alt="У">
+            <img class="letter1" src="../../../assets/img/Н.gif" alt="Н">
+            <img class="letter1" src="../../../assets/img/Н(з).gif" alt="Н">
+            <img class="letter1" src="../../../assets/img/я.gif" alt="Я">
+            <img class="letter1" src="../../../assets/img/Г(с).gif" alt="Г">
+            <img class="letter1" src="../../../assets/img/Г(з).gif" alt="Г">
+        </div>
+
+        <div>
+            <img class="letter1" src="../../../assets/img/м.gif" alt="М">
+            <img class="letter1" src="../../../assets/img/м2.gif" alt="М">
+            <img class="letter1" src="../../../assets/img/к.gif" alt="К">
+            <img class="letter1" src="../../../assets/img/К(з).gif" alt="К">
+            <img class="letter1" src="../../../assets/img/е.gif" alt="Е">
+            <img class="letter1" src="../../../assets/img/Б.gif" alt="Б">
+            <img class="letter1" src="../../../assets/img/Б(з)).gif" alt="Б">
+            <img class="letter1" src="../../../assets/img/Ё.gif" alt="Ё">
+            <img class="letter1" src="../../../assets/img/п.gif" alt="П">
+            <img class="letter1" src="../../../assets/img/П(з).gif" alt="П">
+            <img class="letter1" src="../../../assets/img/Ю.gif" alt="Ю">
+        </div>
+
+        <div style="margin-bottom: 100px;">
+            <img src="../../../assets/img/звезды.gif" alt="звезды">
+            <img src="../../../assets/img/звезды.gif" alt="звезды">
+            <img src="../../../assets/img/звезды.gif" alt="звезды">
+        </div>
+
+        <div>
+            <a class="stitched" (click)="viewDiv22()">Домашнее задание</a>
+        </div>
+    </div>
+
+    <div id="div22">
+        <div>
+            <p>Прочитай и запиши слова.</p>
+        </div>
+
+        <div style="display: flex; justify-content: center; flex-direction: row; margin-bottom: 50px;">
+            <div class="imgAndInput">
+                <img src="../../../assets/img/ёлка.png" class="imgInDiv1" title="ЁЛКА" alt="ёлка">
+                <input id="input30" type="text" class="inputInDiv1">
+            </div>
+
+            <div class="imgAndInput">
+                <img src="../../../assets/img/юбка.png" class="imgInDiv1" title="ЮБКА" alt="юбка">
+                <input id="input31" type="text" class="inputInDiv1">
+            </div>
+
+            <div class="imgAndInput">
+                <img src="../../../assets/img/дуб.png" class="imgInDiv1" title="ДУБ" alt="дуб">
+                <input id="input32" type="text" class="inputInDiv1">
+            </div>
+
+            <div class="imgAndInput">
+                <img src="../../../assets/img/жёлуди.png" class="imgInDiv1" title="ЖЁЛУДИ" alt="жёлуди">
+                <input id="input33" type="text" class="inputInDiv1">
+            </div>
+
+            <div class="imgAndInput">
+                <img src="../../../assets/img/кукла.png" class="imgInDiv1" title="КУКЛА" alt="кукла">
+                <input id="input34" type="text" class="inputInDiv1">
+            </div>
+        </div>
+
+        <div>
+            <a class="stitched" (click)="checkInput3()">Проверить</a>
+        </div>
+    </div>
+</div>

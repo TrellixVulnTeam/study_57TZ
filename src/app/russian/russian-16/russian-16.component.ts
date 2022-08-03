@@ -3,7 +3,7 @@ import { Component } from "@angular/core";
 @Component({
     selector: 'russian16',
     templateUrl: './russian-16.component.html',
-    styleUrls: ['./russian-16.component.scss']
+    styleUrls: ['./../russian-11/russian-11.component.scss']
 })
 
 export class Russian16 {
@@ -172,105 +172,105 @@ export class Russian16 {
         const valueOfInput14 = (<HTMLInputElement>document.getElementById('input14')).value;
         const valueOfInput15 = (<HTMLInputElement>document.getElementById('input15')).value;
 
-        if(valueOfInput1 == "Б") {
+        if((valueOfInput1 == "Б") || (valueOfInput1 == "б")) {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "Ю") {
+        if((valueOfInput2 == "Ю") || (valueOfInput2 == "ю")) {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "Л") {
+        if((valueOfInput3 == "Л") || (valueOfInput3 == "л")) {
             document.getElementById('input3')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input3')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput4 == "К") {
+        if((valueOfInput4 == "К") || (valueOfInput4 == "к")) {
             document.getElementById('input4')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input4')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput5 == "О") {
+        if((valueOfInput5 == "О") || (valueOfInput5 == "о")) {
             document.getElementById('input5')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input5')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput6 == "И") {
+        if((valueOfInput6 == "И") || (valueOfInput6 == "и")) {
             document.getElementById('input6')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input6')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput7 == "У") {
+        if((valueOfInput7 == "У") || (valueOfInput7 == "у")) {
             document.getElementById('input7')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input7')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput8 == "Ё") {
+        if((valueOfInput8 == "Ё") || (valueOfInput8 == "ё")) {
             document.getElementById('input8')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input8')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput9 == "А") {
+        if((valueOfInput9 == "А") || (valueOfInput9 == "а")) {
             document.getElementById('input9')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input9')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput10 == "Я") {
+        if((valueOfInput10 == "Я") || (valueOfInput10 == "я")) {
             document.getElementById('input10')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input10')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput11 == "Е") {
+        if((valueOfInput11 == "Е") || (valueOfInput11 == "е")) {
             document.getElementById('input11')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input11')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput12 == "М") {
+        if((valueOfInput12 == "М") || (valueOfInput12 == "м")) {
             document.getElementById('input12')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input12')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput13 == "П") {
+        if((valueOfInput13 == "П") || (valueOfInput13 == "п")) {
             document.getElementById('input13')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input13')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput14 == "Ж") {
+        if((valueOfInput14 == "Ж") || (valueOfInput14 == "ж")) {
             document.getElementById('input14')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input14')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput15 == "Д") {
+        if((valueOfInput15 == "Д") || (valueOfInput15 == "д")) {
             document.getElementById('input15')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
@@ -372,33 +372,41 @@ export class Russian16 {
 
     clickImgK() {
         if (this.imgCactus == true) {
-            const getImgCactus = document.getElementById('cactus');
-            getImgCactus!.remove(); 
+            document.getElementById('cactus')!.remove();
+            document.getElementById('imgK')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgK')!.style.border = 'none', 500);
         } else if (this.imgPencil == true) {
-            const getImgPencil = document.getElementById('pencil');
-            getImgPencil!.remove();
+            document.getElementById('pencil')!.remove();
+            document.getElementById('imgK')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgK')!.style.border = 'none', 500);
         } else if (this.imgCow == true) {
-            const getImgCow = document.getElementById('cow');
-            getImgCow!.remove(); 
+            document.getElementById('cow')!.remove();
+            document.getElementById('imgK')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgK')!.style.border = 'none', 500);
         } else if (this.imgGoat == true) {
-            const getImgGoat = document.getElementById('goat');
-            getImgGoat!.remove();
+            document.getElementById('goat')!.remove();
+            document.getElementById('imgK')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgK')!.style.border = 'none', 500);
         }
     };
 
     clickImgK2() {
         if (this.imgKangaroo == true) {
-            const getImgKangaroo = document.getElementById('kangaroo');
-            getImgKangaroo!.remove();
+            document.getElementById('kangaroo')!.remove();
+            document.getElementById('imgK2')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgK2')!.style.border = 'none', 500);
         } else if (this.imgCap == true) {
-            const getImgCap = document.getElementById('cap');
-            getImgCap!.remove();
+            document.getElementById('cap')!.remove();
+            document.getElementById('imgK2')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgK2')!.style.border = 'none', 500);
         } else if (this.imgKiwi == true) {
-            const getImgKiwi = document.getElementById('kiwi');
-            getImgKiwi!.remove(); 
+            document.getElementById('kiwi')!.remove();
+            document.getElementById('imgK2')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgK2')!.style.border = 'none', 500);
         } else if (this.imgWhale == true) {
-            const getImgWhale = document.getElementById('whale');
-            getImgWhale!.remove();
+            document.getElementById('whale')!.remove();
+            document.getElementById('imgK2')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('K2')!.style.border = 'none', 500);
         }
     };
 
@@ -492,25 +500,41 @@ export class Russian16 {
 
     clickImgJ() {
         if (this.imgCrane == true) {
-            const getImgCrane = document.getElementById('crane')!.remove(); 
+            document.getElementById('crane')!.remove();
+            document.getElementById('imgJ')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgJ')!.style.border = 'none', 500);
         } else if (this.imgToad == true) {
-            const getImgToad = document.getElementById('toad')!.remove(); 
+            document.getElementById('toad')!.remove();
+            document.getElementById('imgJ')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgJ')!.style.border = 'none', 500);
         } else if (this.imgGiraffe == true) {
-            const getImgGiraffe = document.getElementById('giraffe')!.remove(); 
+            document.getElementById('giraffe')!.remove();
+            document.getElementById('imgJ')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgJ')!.style.border = 'none', 500);
         } else if (this.imgBeatle == true) {
-            const getImgBeatle = document.getElementById('beatle')!.remove();
+            document.getElementById('beatle')!.remove();
+            document.getElementById('imgJ')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgJ')!.style.border = 'none', 500);
         }
     };
 
     clickImgM() {
         if (this.imgMill == true) {
-            const getImgMill = document.getElementById('mill')!.remove();
+            document.getElementById('mill')!.remove();
+            document.getElementById('imgM')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgM')!.style.border = 'none', 500);
         } else if (this.imgMimosa == true) {
-            const getImgMimosa = document.getElementById('mimosa')!.remove();
+            document.getElementById('mimosa')!.remove();
+            document.getElementById('imgM')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgM')!.style.border = 'none', 500);
         } else if (this.imgJellyfish == true) {
-            const getImgJellyfish = document.getElementById('jellyfish')!.remove();
+            document.getElementById('jellyfish')!.remove();
+            document.getElementById('imgM')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgM')!.style.border = 'none', 500);
         } else if (this.imgBear == true) {
-            const getImgBear = document.getElementById('bear')!.remove();
+            document.getElementById('bear')!.remove();
+            document.getElementById('imgM')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgM')!.style.border = 'none', 500);
         }
     };
 
@@ -525,56 +549,56 @@ export class Russian16 {
         const valueOfInput7 = (<HTMLInputElement>document.getElementById('input22')).value;
         const valueOfInput8 = (<HTMLInputElement>document.getElementById('input23')).value;
 
-        if(valueOfInput1 == "А") {
+        if((valueOfInput1 == "А") || (valueOfInput1 == "а")) {
             document.getElementById('input16')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input16')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "О") {
+        if((valueOfInput2 == "О") || (valueOfInput2 == "о")) {
             document.getElementById('input17')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input17')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "У") {
+        if((valueOfInput3 == "У") || (valueOfInput3 == "у")) {
             document.getElementById('input18')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input18')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput4 == "Е") {
+        if((valueOfInput4 == "Е") || (valueOfInput4 == "е")) {
             document.getElementById('input19')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input19')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput5 == "Я") {
+        if((valueOfInput5 == "Я") || (valueOfInput5 == "я")) {
             document.getElementById('input20')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input20')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput6 == "Ё") {
+        if((valueOfInput6 == "Ё") || (valueOfInput6 == "ё")) {
             document.getElementById('input21')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input21')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput7 == "Ю") {
+        if((valueOfInput7 == "Ю") || (valueOfInput7 == "ю")) {
             document.getElementById('input22')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input22')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput8 == "И") {
+        if((valueOfInput8 == "И") || (valueOfInput8 == "и")) {
             document.getElementById('input23')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
@@ -596,49 +620,49 @@ export class Russian16 {
         const valueOfInput6 = (<HTMLInputElement>document.getElementById('input29')).value;
         const valueOfInput7 = (<HTMLInputElement>document.getElementById('input30')).value;
 
-        if(valueOfInput1 == "К") {
+        if((valueOfInput1 == "К") || (valueOfInput1 == "к")) {
             document.getElementById('input24')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input24')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "П") {
+        if((valueOfInput2 == "П") || (valueOfInput2 == "п")) {
             document.getElementById('input25')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input25')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "Д") {
+        if((valueOfInput3 == "Д") || (valueOfInput3 == "д")) {
             document.getElementById('input26')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input26')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput4 == "Ж") {
+        if((valueOfInput4 == "Ж") || (valueOfInput4 == "ж")) {
             document.getElementById('input27')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input27')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput5 == "Л") {
+        if((valueOfInput5 == "Л") || (valueOfInput5 == "л")) {
             document.getElementById('input28')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input28')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput6 == "М") {
+        if((valueOfInput6 == "М") || (valueOfInput6 == "м")) {
             document.getElementById('input29')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input29')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput7 == "Б") {
+        if((valueOfInput7 == "Б") || (valueOfInput7 == "б")) {
             document.getElementById('input30')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
@@ -932,25 +956,41 @@ export class Russian16 {
 
     clickImgN() {
         if (this.imgRhinoceros == true) {
-            const getImgRhinoceros = document.getElementById('rhinoceros')!.remove(); 
+            document.getElementById('rhinoceros')!.remove();
+            document.getElementById('imgN')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgN')!.style.border = 'none', 500);
         } else if (this.imgNarcissus == true) {
-            const getImgNarcissus = document.getElementById('narcissus')!.remove(); 
+            document.getElementById('narcissus')!.remove();
+            document.getElementById('imgN')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgN')!.style.border = 'none', 500);
         } else if (this.imgScissors == true) {
-            const getImgScissors = document.getElementById('scissors')!.remove(); 
+            document.getElementById('scissors')!.remove();
+            document.getElementById('imgN')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgN')!.style.border = 'none', 500);
         } else if (this.imgBurbot == true) {
-            const getImgBurbot = document.getElementById('burbot')!.remove();
+            document.getElementById('burbot')!.remove();
+            document.getElementById('imgN')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgN')!.style.border = 'none', 500);
         }
     };
 
     clickImgN2() {
         if (this.imgTumbler == true) {
-            const getImgTumbler = document.getElementById('tumbler')!.remove();
+            document.getElementById('tumbler')!.remove();
+            document.getElementById('imgN2')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgN2')!.style.border = 'none', 500);
         } else if (this.imgIgnoramus == true) {
-            const getImgIgnoramus = document.getElementById('ignoramus')!.remove(); 
+            document.getElementById('ignoramus')!.remove();
+            document.getElementById('imgN2')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgN2')!.style.border = 'none', 500);
         } else if (this.imgThread == true) {
-            const getImgThread = document.getElementById('thread')!.remove(); 
+            document.getElementById('thread')!.remove();
+            document.getElementById('imgN2')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgN2')!.style.border = 'none', 500);
         } else if (this.imgForgetmenot == true) {
-            const getImgForgetmenot = document.getElementById('forgetmenot')!.remove();
+            document.getElementById('forgetmenot')!.remove();
+            document.getElementById('imgN2')!.style.border = "3px solid green";
+            setTimeout(() => document.getElementById('imgN2')!.style.border = 'none', 500);
         }
     };
 
@@ -965,56 +1005,56 @@ export class Russian16 {
         const valueOfInput7 = (<HTMLInputElement>document.getElementById('input37')).value;
         const valueOfInput8 = (<HTMLInputElement>document.getElementById('input38')).value;
 
-        if(valueOfInput1 == "НЁ") {
+        if((valueOfInput1 == "НЁ") || (valueOfInput1 == "нё")) {
             document.getElementById('input31')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input31')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "НЯ") {
+        if((valueOfInput2 == "НЯ") || (valueOfInput2 == "ня")) {
             document.getElementById('input32')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input32')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "НЕ") {
+        if((valueOfInput3 == "НЕ") || (valueOfInput3 == "не")) {
             document.getElementById('input33')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input33')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput4 == "НО") {
+        if((valueOfInput4 == "НО") || (valueOfInput4 == "но")) {
             document.getElementById('input34')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input34')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput5 == "НА") {
+        if((valueOfInput5 == "НА") || (valueOfInput5 == "на")) {
             document.getElementById('input35')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input35')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput6 == "НИ") {
+        if((valueOfInput6 == "НИ") || (valueOfInput6 == "ни")) {
             document.getElementById('input36')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input36')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput7 == "НУ") {
+        if((valueOfInput7 == "НУ") || (valueOfInput7 == "ну")) {
             document.getElementById('input37')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input37')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput8 == "НЮ") {
+        if((valueOfInput8 == "НЮ") || (valueOfInput8 == "ню")) {
             document.getElementById('input38')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
@@ -1039,80 +1079,78 @@ export class Russian16 {
         const valueOfInput9 = (<HTMLInputElement>document.getElementById('input47')).value;
         const valueOfInput10 = (<HTMLInputElement>document.getElementById('input48')).value;
 
-        if(valueOfInput1 == "НЮ") {
+        if((valueOfInput1 == "НЮ") || (valueOfInput1 == "ню")) {
             document.getElementById('input39')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input39')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "НЯ") {
+        if((valueOfInput2 == "НЯ") || (valueOfInput2 == "ня")) {
             document.getElementById('input40')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input40')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "НИ") {
+        if((valueOfInput3 == "НИ") || (valueOfInput3 == "ни")) {
             document.getElementById('input41')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input41')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput4 == "БА") {
+        if((valueOfInput4 == "БА") || (valueOfInput4 == "ба")) {
             document.getElementById('input42')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input42')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput5 == "МА") {
+        if((valueOfInput5 == "МА") || (valueOfInput5 == "ма")) {
             document.getElementById('input43')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input43')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput6 == "ПО") {
+        if((valueOfInput6 == "ПО") || (valueOfInput6 == "по")) {
             document.getElementById('input44')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input44')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput7 == "НА") {
+        if((valueOfInput7 == "НА") || (valueOfInput7 == "на")) {
             document.getElementById('input45')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input45')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput8 == "НЁ") {
+        if((valueOfInput8 == "НЁ") || (valueOfInput8 == "нё")) {
             document.getElementById('input46')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input46')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput9 == "МАК") {
+        if((valueOfInput9 == "МАК") || (valueOfInput9 == "мак")) {
             document.getElementById('input47')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input47')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput10 == "БАБА") {
+        if((valueOfInput10 == "БАБА") || (valueOfInput10 == "баба")) {
             document.getElementById('input48')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input48')!.parentElement!.style.border = "3px solid red";
         };
 
-        function right() {alert('Правильно!')}
-
         if(checkValue === 10) {
-            setTimeout(right, 1000);
+            setTimeout(() => alert('Правильно!'), 1000);
         };
     };
 }

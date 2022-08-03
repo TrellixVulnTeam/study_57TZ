@@ -19,12 +19,9 @@ export class Russian2 {
     b = 1;
     c = 1;
     d = 1;
-    imgBaby2 = false;
-    imgDonkey2 = false;
-    imgCry2 = false;
-    imgCow2 = false;
-    imgGoat2 = false;
-    imgCuckoo2 = false;
+    imgCow = false;
+    imgGoat = false;
+    imgCuckoo = false;
 
     viewDiv2() {
         document.getElementById("div1")!.style.display = "none";
@@ -106,56 +103,6 @@ export class Russian2 {
         document.getElementById("div17")!.style.display = "block";
     };
 
-    clickImgU() {
-        if (this.imgSnail == true) {
-            const getImgSnail = document.getElementById('snail');
-            const getU = document.getElementById('u');
-
-            getImgSnail!.remove();
-            getU!.style.border! = "3px solid green"; 
-        };
-    };
-
-    clickImgYa() {
-        if (this.imgApple == true) {
-            const getImgApple = document.getElementById('apple');
-            const getYa = document.getElementById('ya');
-
-            getImgApple!.remove();
-            getYa!.style.border! = "3px solid green"; 
-        };
-    };
-
-    clickImgI() {
-        if (this.imgSpine == true) {
-            const getImgSpine = document.getElementById('spine');
-            const getI = document.getElementById('i');
-
-            getImgSpine!.remove();
-            getI!.style.border! = "3px solid green"; 
-        };
-    };
-
-    clickImgO() {
-        if (this.imgCloud == true) {
-            const getImgCloud = document.getElementById('cloud');
-            const getO = document.getElementById('o');
-
-            getImgCloud!.remove();
-            getO!.style.border! = "3px solid green"; 
-        };
-    };
-
-    clickImgA() {
-        if (this.imgWatermelon == true) {
-            const getImgWatermelon = document.getElementById('watermelon');
-            const getA = document.getElementById('a');
-
-            getImgWatermelon!.remove();
-            getA!.style.border! = "3px solid green"; 
-        };
-    };
-
     clickImgSnail() {
         this.imgSnail = true;
         this.imgCloud = false;
@@ -194,6 +141,41 @@ export class Russian2 {
         this.imgSpine = false;
         this.imgWatermelon = false;
         this.imgApple = true;
+    };
+
+    clickImgU() {
+        if (this.imgSnail == true) {
+            document.getElementById('snail')!.remove();
+            document.getElementById('u')!.style.border! = "3px solid green"; 
+        };
+    };
+
+    clickImgYa() {
+        if (this.imgApple == true) {
+            document.getElementById('apple')!.remove();
+            document.getElementById('ya')!.style.border! = "3px solid green"; 
+        };
+    };
+
+    clickImgI() {
+        if (this.imgSpine == true) {
+            document.getElementById('spine')!.remove();
+            document.getElementById('i')!.style.border! = "3px solid green"; 
+        };
+    };
+
+    clickImgO() {
+        if (this.imgCloud == true) {
+            document.getElementById('cloud')!.remove();
+            document.getElementById('o')!.style.border! = "3px solid green"; 
+        };
+    };
+
+    clickImgA() {
+        if (this.imgWatermelon == true) {
+            document.getElementById('watermelon')!.remove();
+            document.getElementById('a')!.style.border! = "3px solid green"; 
+        };
     };
 
     clickImgBaby() {
@@ -326,21 +308,21 @@ export class Russian2 {
         const valueOfInput2 = (<HTMLInputElement>document.getElementById('input2')).value;
         const valueOfInput3 = (<HTMLInputElement>document.getElementById('input3')).value;
 
-        if(valueOfInput1 == "МУ") {
+        if((valueOfInput1 == "МУ") || (valueOfInput1 == "му")) {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input1')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput2 == "МЕ") {
+        if((valueOfInput2 == "МЕ") || (valueOfInput2 == "ме")) {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
             document.getElementById('input2')!.parentElement!.style.border = "3px solid red";
         };
 
-        if(valueOfInput3 == "КУ-КУ") {
+        if((valueOfInput3 == "КУ-КУ") || (valueOfInput3 == "ку-ку")) {
             document.getElementById('input3')!.parentElement!.style.border = "3px solid green";
             checkValue++;
         } else {
@@ -353,61 +335,61 @@ export class Russian2 {
     };
 
     clickImgBaby2() {
-        this.imgBaby2 = true;
-        this.imgDonkey2 = false;
-        this.imgCry2 = false;
-        this.imgCow2 = false;
-        this.imgGoat2 = false;
-        this.imgCuckoo2 = false;
+        this.imgBaby = true;
+        this.imgDonkey = false;
+        this.imgCry = false;
+        this.imgCow = false;
+        this.imgGoat = false;
+        this.imgCuckoo = false;
     };
 
     clickImgDonkey2() {
-        this.imgDonkey2 = true;
-        this.imgBaby2 = false;
-        this.imgCry2 = false;
-        this.imgCow2 = false;
-        this.imgGoat2 = false;
-        this.imgCuckoo2 = false;
+        this.imgDonkey = true;
+        this.imgBaby = false;
+        this.imgCry = false;
+        this.imgCow = false;
+        this.imgGoat = false;
+        this.imgCuckoo = false;
     };
 
     clickImgCry2() {
-        this.imgCry2 = true;
-        this.imgBaby2 = false;
-        this.imgDonkey2 = false;
-        this.imgCow2 = false;
-        this.imgGoat2 = false;
-        this.imgCuckoo2 = false;
+        this.imgCry = true;
+        this.imgBaby = false;
+        this.imgDonkey = false;
+        this.imgCow = false;
+        this.imgGoat = false;
+        this.imgCuckoo = false;
     };
 
-    clickImgCow2() {
-        this.imgCry2 = false;
-        this.imgBaby2 = false;
-        this.imgDonkey2 = false;
-        this.imgCow2 = true;
-        this.imgGoat2 = false;
-        this.imgCuckoo2 = false;
+    clickImgCow() {
+        this.imgCry = false;
+        this.imgBaby = false;
+        this.imgDonkey = false;
+        this.imgCow = true;
+        this.imgGoat = false;
+        this.imgCuckoo = false;
     };
 
-    clickImgGoat2() {
-        this.imgCry2 = false;
-        this.imgBaby2 = false;
-        this.imgDonkey2 = false;
-        this.imgCow2 = false;
-        this.imgGoat2 = true;
-        this.imgCuckoo2 = false;
+    clickImgGoat() {
+        this.imgCry = false;
+        this.imgBaby = false;
+        this.imgDonkey = false;
+        this.imgCow = false;
+        this.imgGoat = true;
+        this.imgCuckoo = false;
     };
 
-    clickImgCuckoo2() {
-        this.imgCry2 = false;
-        this.imgBaby2 = false;
-        this.imgDonkey2 = false;
-        this.imgCow2 = false;
-        this.imgGoat2 = false;
-        this.imgCuckoo2 = true;
+    clickImgCuckoo() {
+        this.imgCry = false;
+        this.imgBaby = false;
+        this.imgDonkey = false;
+        this.imgCow = false;
+        this.imgGoat = false;
+        this.imgCuckoo = true;
     };
 
     clickDivForCry2() {
-        if (this.imgCry2 == true) {
+        if (this.imgCry == true) {
             const getImgCry = document.getElementById('cry2');
             const getDivCry = document.getElementById('divForCry2');
             getDivCry!.append(getImgCry!);
@@ -416,7 +398,7 @@ export class Russian2 {
     };
 
     clickDivForBaby2() {
-        if (this.imgBaby2 == true) {
+        if (this.imgBaby == true) {
             const getImgBaby = document.getElementById('baby2');
             const getDivBaby = document.getElementById('divForBaby2');
             getDivBaby!.append(getImgBaby!);
@@ -425,7 +407,7 @@ export class Russian2 {
     };
 
     clickDivForDonkey2() {
-        if (this.imgDonkey2 == true) {
+        if (this.imgDonkey == true) {
             const getImgDonkey = document.getElementById('donkey2');
             const getDivDonkey = document.getElementById('divForDonkey2');
             getDivDonkey!.append(getImgDonkey!);
@@ -433,28 +415,28 @@ export class Russian2 {
         };
     };
 
-    clickDivForCow2() {
-        if (this.imgCow2 == true) {
-            const getImgCow = document.getElementById('cow2');
-            const getDivCow = document.getElementById('divForCow2');
+    clickDivForCow() {
+        if (this.imgCow == true) {
+            const getImgCow = document.getElementById('cow');
+            const getDivCow = document.getElementById('divForCow');
             getDivCow!.append(getImgCow!);
             getDivCow!.parentElement!.style.border = "3px solid green";
         };
     };
 
-    clickDivForGoat2() {
-        if (this.imgGoat2 == true) {
-            const getImgGoat = document.getElementById('goat2');
-            const getDivGoat = document.getElementById('divForGoat2');
+    clickDivForGoat() {
+        if (this.imgGoat == true) {
+            const getImgGoat = document.getElementById('goat');
+            const getDivGoat = document.getElementById('divForGoat');
             getDivGoat!.append(getImgGoat!);
             getDivGoat!.parentElement!.style.border = "3px solid green";
         };
     };
 
-    clickDivForCuckoo2() {
-        if (this.imgCuckoo2 == true) {
-            const getImgCuckoo = document.getElementById('cuckoo2');
-            const getDivCuckoo = document.getElementById('divForCuckoo2');
+    clickDivForCuckoo() {
+        if (this.imgCuckoo == true) {
+            const getImgCuckoo = document.getElementById('cuckoo');
+            const getDivCuckoo = document.getElementById('divForCuckoo');
             getDivCuckoo!.append(getImgCuckoo!);
             getDivCuckoo!.parentElement!.style.border = "3px solid green";
         };
